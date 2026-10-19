@@ -1,0 +1,166 @@
+[
+  {
+    "id": "RA-001",
+    "title": "Extracellular PROX1 transfer restrains Müller glia reprogramming",
+    "genes": [
+      "PROX1"
+    ],
+    "tissue": "Retina",
+    "model": "Mouse in vivo",
+    "evidence": "Peer-reviewed animal",
+    "stage": "Preclinical",
+    "outcome": "Positive preclinical result",
+    "observed": "Blocking extracellular PROX1 transfer promoted Müller glia reprogramming, retinal neuron generation and delayed visual decline in a mouse model.",
+    "notShown": "Safe or effective retinal regeneration in living humans; durable restoration of normal vision.",
+    "safety": "PROX1 is important in other tissues; long-term and cell-specific safety remain unresolved.",
+    "source": "Lee et al., Nature Communications (2025)",
+    "doi": "10.1038/s41467-025-58290-8",
+    "url": "https://doi.org/10.1038/s41467-025-58290-8",
+    "conflict": "Some authors disclosed interests related to Celliaz.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-002",
+    "title": "PROX1 localization in degenerating human retinal tissue",
+    "genes": [
+      "PROX1"
+    ],
+    "tissue": "Retina",
+    "model": "Human donor tissue",
+    "evidence": "Peer-reviewed human tissue observation",
+    "stage": "Observational",
+    "outcome": "Mechanistic observation",
+    "observed": "Accumulation of PROX1 was reported in Müller glia in degenerating human retinal donor tissue.",
+    "notShown": "That PROX1 inhibition produces new working retinal neurons or restores vision in patients.",
+    "safety": "Protein localization is mechanistic context, not an intervention or clinical result.",
+    "source": "Lee et al., Nature Communications (2025)",
+    "doi": "10.1038/s41467-025-58290-8",
+    "url": "https://doi.org/10.1038/s41467-025-58290-8",
+    "conflict": "See source publication for full disclosures.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-003",
+    "title": "ASCL1 plus chromatin modulation produces retinal neuron-like cells",
+    "genes": [
+      "ASCL1"
+    ],
+    "tissue": "Retina",
+    "model": "Mouse in vivo",
+    "evidence": "Peer-reviewed animal",
+    "stage": "Preclinical",
+    "outcome": "Positive preclinical result",
+    "observed": "ASCL1 expression with histone deacetylase inhibition generated neuronal-feature cells with light-responsive properties in adult mice.",
+    "notShown": "Normal vision restored in humans or a proven safe clinical treatment.",
+    "safety": "Forced cell-state changes warrant careful evaluation of cell identity and long-term stability.",
+    "source": "Jorstad et al., Nature (2017)",
+    "doi": "10.1038/nature23283",
+    "url": "https://doi.org/10.1038/nature23283",
+    "conflict": "Consult original disclosure statement.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-004",
+    "title": "Dual PTEN and SOCS3 deletion enhances injured optic-nerve axon growth",
+    "genes": [
+      "PTEN",
+      "SOCS3"
+    ],
+    "tissue": "Optic nerve",
+    "model": "Mouse in vivo",
+    "evidence": "Peer-reviewed animal",
+    "stage": "Preclinical",
+    "outcome": "Positive preclinical result",
+    "observed": "Cell-specific removal of both inhibitory proteins supported more sustained axon regrowth than either manipulation alone.",
+    "notShown": "Full functional restoration of the human optic nerve or an approved intervention.",
+    "safety": "PTEN is a major tumor suppressor; systemic deletion would not be a safe clinical strategy.",
+    "source": "Sun et al., Nature (2011)",
+    "doi": "10.1038/nature10594",
+    "url": "https://doi.org/10.1038/nature10594",
+    "conflict": "Consult publication for disclosures.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-005",
+    "title": "NG101 targeting Nogo-A after cervical spinal cord injury",
+    "genes": [
+      "RTN4"
+    ],
+    "tissue": "Spinal cord",
+    "model": "Human clinical trial",
+    "evidence": "Randomized phase 2b trial",
+    "stage": "Clinical",
+    "outcome": "Primary endpoint not met",
+    "observed": "The antibody treatment did not produce a statistically significant improvement on the prespecified primary upper-extremity motor score for the overall trial population.",
+    "notShown": "Clinical efficacy in the trial population or regrowth of severed spinal pathways.",
+    "safety": "Exploratory subgroup signals require independent prospective confirmation.",
+    "source": "Weidner et al., The Lancet Neurology (2025)",
+    "doi": "10.1016/S1474-4422(24)00447-2",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39706632/",
+    "conflict": "Consult published trial report for sponsor and investigator disclosures.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-006",
+    "title": "YAP–EN1 signaling changes mouse skin healing and scarring",
+    "genes": [
+      "YAP1",
+      "EN1"
+    ],
+    "tissue": "Skin",
+    "model": "Mouse in vivo",
+    "evidence": "Peer-reviewed animal",
+    "stage": "Preclinical",
+    "outcome": "Positive preclinical result",
+    "observed": "Inhibiting fibroblast YAP or EN1 activation promoted wound healing with regenerative features, including skin appendages, in mice.",
+    "notShown": "A validated scar-free wound therapy for people.",
+    "safety": "YAP affects growth and has different roles in distinct tissues; blanket inhibition is not supported.",
+    "source": "Mascharak et al., Science (2021)",
+    "doi": "10.1126/science.aba2374",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33888614/",
+    "conflict": "Authors reported related intellectual-property interests.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-007",
+    "title": "Inherited MSTN loss of function increases human muscle mass",
+    "genes": [
+      "MSTN"
+    ],
+    "tissue": "Skeletal muscle",
+    "model": "Human genetic case",
+    "evidence": "Peer-reviewed case report",
+    "stage": "Human genetics",
+    "outcome": "Human biological role supported",
+    "observed": "An inherited myostatin loss-of-function variant was associated with pronounced muscle hypertrophy in one child.",
+    "notShown": "Effective muscle regeneration, general health benefits, or an approved myostatin-blocking treatment.",
+    "safety": "Increased muscle size does not automatically mean improved strength or tissue repair.",
+    "source": "Schuelke et al., NEJM (2004)",
+    "doi": "10.1056/NEJMoa040933",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15215484/",
+    "conflict": "Consult original publication for disclosures.",
+    "provenance": "SOURCE_LINKED"
+  },
+  {
+    "id": "RA-008",
+    "title": "FGF2 and GSK3 modulation in cultured adult human retina",
+    "genes": [
+      "FGF2",
+      "GSK3A",
+      "GSK3B"
+    ],
+    "tissue": "Retina",
+    "model": "Human donor tissue ex vivo",
+    "evidence": "2026 preprint, not peer-reviewed",
+    "stage": "Preprint",
+    "outcome": "Preliminary human tissue finding",
+    "observed": "Adult donor retinal cultures showed Müller glia proliferation and markers associated with neuronal lineage commitment after signaling interventions.",
+    "notShown": "New functionally integrated neurons in living patients or restored human vision.",
+    "safety": "Ex vivo markers are not clinical efficacy; findings require peer review and replication.",
+    "source": "Magda et al., bioRxiv (2026)",
+    "doi": "10.64898/2026.04.27.717633",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.04.27.717633v1",
+    "conflict": "See preprint for author disclosures.",
+    "provenance": "PREPRINT_SOURCE_LINKED"
+  }
+]

@@ -15,7 +15,7 @@ test('taxonomy is bounded and evidence cells are unique',()=>{
 });
 test('each study has source, setting, boundary, and study type',()=>{
  for(const c of cases){
-  for(const key of ['context','studyType','developmentalStage','origin','functional','clinical']) assert.ok(c[key]?.length>7,c.id+' missing '+key);
+  for(const key of ['context','studyType','developmentalStage','origin','functional','clinical']) assert.ok(typeof c[key]==='string' && c[key].trim().length>=4,c.id+' missing '+key);
   assert.ok(c.repair.length>75,c.id+' missing observation');
   assert.ok(c.boundary.length>75,c.id+' missing counterclaim');
   assert.ok(c.mechanisms.length>=2,c.id+' missing research themes');

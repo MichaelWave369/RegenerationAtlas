@@ -1,0 +1,351 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-10-19",
+  "description": "Curated research map. Directed arrows indicate study-reported pathway relationships, not necessarily direct physical binding. Context and evidence level are mandatory.",
+  "nodes": [
+    {
+      "id": "PROX1",
+      "label": "PROX1",
+      "kind": "protein",
+      "tissue": "Retina",
+      "x": 125,
+      "y": 80,
+      "summary": "A transcription factor whose transfer from neurons into Müller glia was implicated in suppressing regeneration in mouse retina.",
+      "boundary": "Global PROX1 inhibition is not supported."
+    },
+    {
+      "id": "ASCL1",
+      "label": "ASCL1",
+      "kind": "protein",
+      "tissue": "Retina",
+      "x": 125,
+      "y": 200,
+      "summary": "A proneural transcription factor experimentally used with chromatin modulation to reprogram adult mouse Müller glia.",
+      "boundary": "The cited study did not test ASCL1 together with PROX1 blockade."
+    },
+    {
+      "id": "MG_REPROGRAM",
+      "label": "Glial reprogramming",
+      "kind": "process",
+      "tissue": "Retina",
+      "x": 470,
+      "y": 130,
+      "summary": "Entry of Müller glia into a progenitor or neuronal differentiation program. Different studies use different interventions and assays.",
+      "boundary": "Neuronal marker expression alone does not establish repaired human vision."
+    },
+    {
+      "id": "DUAL_RETINA",
+      "label": "Dual strategy?",
+      "kind": "hypothesis",
+      "tissue": "Retina",
+      "x": 805,
+      "y": 85,
+      "summary": "Untested research question: would perturbing PROX1 transfer and using ASCL1-based reprogramming produce complementary effects?",
+      "boundary": "No supplied paper demonstrated the combination. This is NOT a known protein–protein interaction."
+    },
+    {
+      "id": "FGF2_GSK3",
+      "label": "FGF2 + GSK3 inhibition",
+      "kind": "intervention",
+      "tissue": "Retina",
+      "x": 450,
+      "y": 245,
+      "summary": "Combined laboratory conditions discussed in a 2026 preprint on cultures of adult human donor retina.",
+      "boundary": "Preprint and ex-vivo tissue only; not evidence of restored vision."
+    },
+    {
+      "id": "GLIAL_MARKERS",
+      "label": "Neural-lineage markers",
+      "kind": "process",
+      "tissue": "Retina",
+      "x": 810,
+      "y": 245,
+      "summary": "Preliminary markers of neural-lineage commitment reported in adult human retinal cultures.",
+      "boundary": "Markers are not an established functional replacement neuron or clinical benefit."
+    },
+    {
+      "id": "PTEN",
+      "label": "PTEN",
+      "kind": "protein",
+      "tissue": "Optic nerve",
+      "x": 125,
+      "y": 76,
+      "summary": "Growth-control regulator that negatively regulates the mTOR pathway; also an important tumor suppressor.",
+      "boundary": "Systemic or permanent loss is unsafe to infer as a treatment."
+    },
+    {
+      "id": "SOCS3",
+      "label": "SOCS3",
+      "kind": "protein",
+      "tissue": "Optic nerve",
+      "x": 125,
+      "y": 204,
+      "summary": "Negative regulator of cytokine/JAK–STAT signaling in the cited mouse optic nerve work.",
+      "boundary": "The mouse combination result does not establish human optic nerve recovery."
+    },
+    {
+      "id": "MTOR",
+      "label": "mTOR signaling",
+      "kind": "pathway",
+      "tissue": "Optic nerve",
+      "x": 462,
+      "y": 78,
+      "summary": "Pathway upregulated when PTEN restraint is removed; associated with growth responses in retinal ganglion cells.",
+      "boundary": "Activation of growth signaling is not the same as correctly wiring axons."
+    },
+    {
+      "id": "STAT3",
+      "label": "STAT3 signaling",
+      "kind": "pathway",
+      "tissue": "Optic nerve",
+      "x": 462,
+      "y": 200,
+      "summary": "Signaling pathway promoted after SOCS3 deletion, involved in sustained axon growth in the cited mouse model.",
+      "boundary": "The cited experiment does not establish a human clinical therapy."
+    },
+    {
+      "id": "AXON_GROWTH",
+      "label": "Sustained axon growth",
+      "kind": "outcome",
+      "tissue": "Optic nerve",
+      "x": 817,
+      "y": 140,
+      "summary": "Mouse optic nerve axon regrowth reported after combined PTEN and SOCS3 deletion.",
+      "boundary": "Regrowth is not proof of full correct reconnection or human vision restoration."
+    },
+    {
+      "id": "YAP1",
+      "label": "YAP1",
+      "kind": "protein",
+      "tissue": "Skin",
+      "x": 135,
+      "y": 124,
+      "summary": "Mechanotransduction regulator acting upstream of wound-associated Engrailed-1 activation in mouse fibroblasts.",
+      "boundary": "YAP has different tissue roles; blanket inhibition is not justified."
+    },
+    {
+      "id": "EN1",
+      "label": "EN1 activation",
+      "kind": "process",
+      "tissue": "Skin",
+      "x": 468,
+      "y": 124,
+      "summary": "Activation of the Engrailed-1 program distinguishes scar-producing fibroblast lineages in the cited mouse experiments.",
+      "boundary": "Cell lineage participation is not identical to a direct chemical interaction."
+    },
+    {
+      "id": "SCARRING",
+      "label": "Scar-associated lineage",
+      "kind": "outcome",
+      "tissue": "Skin",
+      "x": 807,
+      "y": 124,
+      "summary": "Engrailed-1-positive fibroblast lineage contributes to skin scarring after mechanical cues in mice.",
+      "boundary": "No proven scar-free human treatment follows directly."
+    },
+    {
+      "id": "MSTN",
+      "label": "MSTN / myostatin",
+      "kind": "protein",
+      "tissue": "Skeletal muscle",
+      "x": 135,
+      "y": 124,
+      "summary": "Normal skeletal muscle growth regulator. Human loss-of-function genetics supports an inhibitory role.",
+      "boundary": "Increased muscle mass does not necessarily improve strength or regenerate damaged muscle."
+    },
+    {
+      "id": "MUSCLE_GROWTH",
+      "label": "Muscle mass",
+      "kind": "outcome",
+      "tissue": "Skeletal muscle",
+      "x": 785,
+      "y": 124,
+      "summary": "Marked muscle hypertrophy was documented in a human with biallelic MSTN loss-of-function.",
+      "boundary": "A single genetic case does not establish safe benefit from treatment."
+    }
+  ],
+  "edges": [
+    {
+      "id": "INT-001",
+      "from": "PROX1",
+      "to": "MG_REPROGRAM",
+      "tissue": "Retina",
+      "relation": "Restrains glial reprogramming",
+      "type": "inhibits",
+      "classification": "SOURCE_REPORTED",
+      "model": "Mouse retina, injury and degeneration models",
+      "sourceRecordIds": [
+        "RA-001"
+      ],
+      "finding": "Transferred PROX1 was reported to restrict retinal Müller glia reprogramming; extracellular sequestration relieved that restraint.",
+      "limit": "Not proof of a working treatment in humans."
+    },
+    {
+      "id": "INT-002",
+      "from": "ASCL1",
+      "to": "MG_REPROGRAM",
+      "tissue": "Retina",
+      "relation": "Promotes with HDAC inhibition",
+      "type": "promotes",
+      "classification": "SOURCE_REPORTED",
+      "model": "Adult mouse retina",
+      "sourceRecordIds": [
+        "RA-003"
+      ],
+      "finding": "ASCL1 combined with an HDAC inhibitor supported generation of neuron-like cells with reported functional features.",
+      "limit": "Not studied here in combination with PROX1 manipulation."
+    },
+    {
+      "id": "INT-003",
+      "from": "PROX1",
+      "to": "DUAL_RETINA",
+      "tissue": "Retina",
+      "relation": "Untested combination question",
+      "type": "hypothesis",
+      "classification": "HYPOTHESIS",
+      "model": "No combined experiment identified",
+      "sourceRecordIds": [
+        "RA-001",
+        "RA-003"
+      ],
+      "finding": "A possible complementary intervention is proposed by comparing separate mouse studies, not by measuring a combined intervention.",
+      "limit": "No demonstrated PROX1–ASCL1 direct binding, synergy, or human benefit."
+    },
+    {
+      "id": "INT-004",
+      "from": "ASCL1",
+      "to": "DUAL_RETINA",
+      "tissue": "Retina",
+      "relation": "Untested combination question",
+      "type": "hypothesis",
+      "classification": "HYPOTHESIS",
+      "model": "No combined experiment identified",
+      "sourceRecordIds": [
+        "RA-001",
+        "RA-003"
+      ],
+      "finding": "Conceptual overlap in glial reprogramming motivates a research question.",
+      "limit": "No published combination outcome established here."
+    },
+    {
+      "id": "INT-005",
+      "from": "FGF2_GSK3",
+      "to": "GLIAL_MARKERS",
+      "tissue": "Retina",
+      "relation": "Preliminary culture finding",
+      "type": "associated",
+      "classification": "PREPRINT_REPORTED",
+      "model": "Cultured adult human donor retina ex vivo; preprint",
+      "sourceRecordIds": [
+        "RA-008"
+      ],
+      "finding": "An unreviewed 2026 manuscript reports proliferation and neural-lineage marker changes following culture interventions.",
+      "limit": "Not peer-reviewed, no demonstrated living-human vision restoration."
+    },
+    {
+      "id": "INT-006",
+      "from": "PTEN",
+      "to": "MTOR",
+      "tissue": "Optic nerve",
+      "relation": "Negative pathway regulation",
+      "type": "inhibits",
+      "classification": "SOURCE_REPORTED",
+      "model": "Adult mouse retinal ganglion cells",
+      "sourceRecordIds": [
+        "RA-004"
+      ],
+      "finding": "The cited study identifies PTEN as a negative regulator of mTOR signaling in adult retinal ganglion cells.",
+      "limit": "Pathway relation is not necessarily direct molecular binding."
+    },
+    {
+      "id": "INT-007",
+      "from": "SOCS3",
+      "to": "STAT3",
+      "tissue": "Optic nerve",
+      "relation": "Negative pathway regulation",
+      "type": "inhibits",
+      "classification": "SOURCE_REPORTED",
+      "model": "Adult mouse retinal ganglion cells",
+      "sourceRecordIds": [
+        "RA-004"
+      ],
+      "finding": "The cited study identifies SOCS3 as a negative regulator of JAK/STAT signaling.",
+      "limit": "Pathway regulation does not require direct SOCS3–STAT3 binding."
+    },
+    {
+      "id": "INT-008",
+      "from": "MTOR",
+      "to": "AXON_GROWTH",
+      "tissue": "Optic nerve",
+      "relation": "Contributes to growth program",
+      "type": "associated",
+      "classification": "SOURCE_REPORTED",
+      "model": "Mouse optic nerve crush, joint PTEN/SOCS3 deletion",
+      "sourceRecordIds": [
+        "RA-004"
+      ],
+      "finding": "Combined pathway activation was reported alongside stronger sustained axon growth after dual deletion.",
+      "limit": "Neither a direct pathway-to-neuron physical interaction nor human treatment evidence."
+    },
+    {
+      "id": "INT-009",
+      "from": "STAT3",
+      "to": "AXON_GROWTH",
+      "tissue": "Optic nerve",
+      "relation": "Contributes to growth program",
+      "type": "associated",
+      "classification": "SOURCE_REPORTED",
+      "model": "Mouse optic nerve crush, joint PTEN/SOCS3 deletion",
+      "sourceRecordIds": [
+        "RA-004"
+      ],
+      "finding": "Activation of STAT3 alongside mTOR was implicated in sustained regrowth after combined deletion.",
+      "limit": "This line does not imply that STAT3 alone explains the combined effect."
+    },
+    {
+      "id": "INT-010",
+      "from": "YAP1",
+      "to": "EN1",
+      "tissue": "Skin",
+      "relation": "Mechanotransduction promotes EN1 activation",
+      "type": "promotes",
+      "classification": "SOURCE_REPORTED",
+      "model": "Mouse dermal fibroblasts and wound models",
+      "sourceRecordIds": [
+        "RA-006"
+      ],
+      "finding": "Blocking fibroblast YAP signaling reduced activation of Engrailed-1 and favored regenerative wound healing in mice.",
+      "limit": "Tissue-specific signaling, not proof that general YAP blockade is safe."
+    },
+    {
+      "id": "INT-011",
+      "from": "EN1",
+      "to": "SCARRING",
+      "tissue": "Skin",
+      "relation": "Scar-lineage association",
+      "type": "associated",
+      "classification": "SOURCE_REPORTED",
+      "model": "Mouse dermal lineage-tracing and wounding",
+      "sourceRecordIds": [
+        "RA-006"
+      ],
+      "finding": "EN1-positive fibroblast lineage was reported to contribute to scar formation.",
+      "limit": "Lineage association must not be described as a direct protein binding event."
+    },
+    {
+      "id": "INT-012",
+      "from": "MSTN",
+      "to": "MUSCLE_GROWTH",
+      "tissue": "Skeletal muscle",
+      "relation": "Physiological growth restraint",
+      "type": "inhibits",
+      "classification": "SOURCE_REPORTED",
+      "model": "Human inherited genetic loss-of-function case",
+      "sourceRecordIds": [
+        "RA-007"
+      ],
+      "finding": "A human case report associated inherited myostatin loss-of-function with pronounced muscle hypertrophy.",
+      "limit": "Does not demonstrate muscle healing or clinical utility of a myostatin-blocking drug."
+    }
+  ]
+}

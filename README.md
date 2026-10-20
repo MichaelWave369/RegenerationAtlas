@@ -1,6 +1,13 @@
-# Regeneration Atlas · R0.1
+# Regeneration Atlas · R1.0
 
 **Evidence before excitement.** An original, MIT-licensed, browser-based research atlas of proteins and pathways connected to tissue repair, cell-state reprogramming, and regeneration.
+
+## R1: Molecular interaction map
+
+- New tissue-lane network map with selected-node inspector, original source links, evidence flags, and JSON export.
+- Peer-reviewed claims appear by default; opt in to preliminary preprints or cross-paper hypotheses.
+- Candidate combined PROX1/ASCL1 retinal strategy is prominently labeled **untested**, not a demonstrated biochemical edge.
+- Source relationships do not imply direct protein binding or safe clinical treatment.
 
 ## Features
 

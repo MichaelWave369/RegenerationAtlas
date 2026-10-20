@@ -121,3 +121,28 @@ Each hypothesis must have:
 Personal notes and reading progress do not change editorial source evidence, publication status, clinical status, or any scientific hypothesis status. Their `progress` values are **unreviewed, reading, drafting, needs-review, parked** only. No `confirmed` or `validated` state exists. Each workspace has browser-local storage; imports must validate their format/version and length; exports must warn that notes are unverified. Clearing local notes must never delete curated R0–R5 data.
 
 The hypothesis bank is not a wet-lab workflow generator. Keep interventions at the *literature review or high-level evidence-type* level, with no dosages or protocols. New hypotheses must be linked to reviewed sources, with boundaries that would make the claimed outcome invalid.
+
+
+## R6: Neural Recovery Atlas (2026-10-20)
+
+`src/data/neural-recovery.json` is a compact, reviewed-by-structure evidence desk covering selected studies on SARS-CoV-2, dopamine neurons, senescence-associated programs, and VMAT2 imaging. This is **not** a systematic review, diagnosis, clinical staging schema or therapeutic recommendation.
+
+### Non-negotiable distinctions
+
+- The four diagrammed states are **conceptual categories**, not a known ordered biological transition, prediction engine, or validated clinical scale. Mature neurons are generally post-mitotic. A senescence-associated transcriptional signature is not equivalent to a cell newly losing its ability to divide.
+- Distinguish viability, synaptic function, senescence-associated readouts, neuronal number, and axonal/terminal structure. **A change in PET VMAT2 binding is not a direct neuron count**, and neither reduced binding nor symptom correlation proves direct infection of neurons.
+- Distinguish Yang 2024 experimental human stem-cell-derived neuron susceptibility and postmortem signatures from Liu 2026 living-person PET observations. One does not establish causation for the other.
+- Xu 2023 senolytic studies in brain organoids and transgenic mice are preclinical, not proof of a safe or effective human treatment. The Yang drug screen did not establish clinical efficacy.
+- Parkinson's links (SNCA, dopamine neurons) must not be translated into claims that COVID causes Parkinson's or that infection-associated senescence progresses inevitably to neuronal death.
+- R6 question status stays permanently `UNTESTED_HYPOTHESIS`. Inference and proposed falsification never become observations by clicking a UI control. Never include operational drug-use protocols, dosages, or self-experiment instructions.
+- The Liu 2026 paper has a published September 2026 corrigendum, DOI `10.1016/j.ebiom.2026.106472`. Always link it whenever presenting the study, and review the updated exploratory analyses before reporting individual statistics. Preserve patent/conflict-of-interest caveats.
+- Avoid claims of confirmed human regeneration or a neuron-reversal therapy. The dataset's `notShown`, `context`, and `boundary` fields are mandatory and must never be removed for brevity.
+
+### Sources and maintenance
+
+Primary publication IDs:
+- `NR-001`: Yang et al., *Cell Stem Cell* (2024), DOI `10.1016/j.stem.2023.12.012`.
+- `NR-002`: Liu et al., *eBioMedicine* (2026), DOI `10.1016/j.ebiom.2026.106339`; correction `10.1016/j.ebiom.2026.106472`.
+- `NR-003`: Xu et al., *Nature Aging* (2023), DOI `10.1038/s43587-023-00519-6`.
+
+Before expanding, verify original study, model, readout, material limitations, corrected analyses, and disclosed interests. New markers and questions must reference real curated `NR-...` source IDs. Run `npm test` and `npm run build` and check that no claim boundary is silently lost.

@@ -106,3 +106,18 @@ A linked evidence pointer is `{ kind: "R0" | "R1" | "R2" | "R3", id: "..." }` wi
 Each record requires a specific, falsifiable-ish research question, a clear reason for classification, a safety/context caveat, and suggested **kinds of evidence** rather than operative protocols. Reconcile all references after upstream data changes, review DOI/source validity, retain negative results, and run the tests.
 
 Source links in downloaded Markdown briefs refer to upstream publications and databases. Generated briefs are **questions for literature review**, not novel clinical claims, safe DIY experiments, or regulator-approved interventions.
+
+## Hypothesis Workbench (R5)
+
+`src/data/hypotheses.json` contains one explicitly `UNTESTED_HYPOTHESIS` hypothesis scaffold per R4 evidence gap. These are *research prompts derived from curated existing literature*, not verified discoveries, claims of global scientific novelty, treatment pathways, or recommended interventions.
+
+Each hypothesis must have:
+- an exact valid `gapId` (R4), contextual tissue and target terms;
+- an IF/THEN statement predicting a distinguishable scientific observation;
+- separate predicted support, disconfirming observations, plausible alternatives, and kinds of evidence needed;
+- an explicit clinical/tissue/provenance caveat;
+- permanent `scientificStatus=UNTESTED_HYPOTHESIS`, `sourceState=DERIVED_FROM_ATLAS`, `isExperimentProtocol=false`.
+
+Personal notes and reading progress do not change editorial source evidence, publication status, clinical status, or any scientific hypothesis status. Their `progress` values are **unreviewed, reading, drafting, needs-review, parked** only. No `confirmed` or `validated` state exists. Each workspace has browser-local storage; imports must validate their format/version and length; exports must warn that notes are unverified. Clearing local notes must never delete curated R0–R5 data.
+
+The hypothesis bank is not a wet-lab workflow generator. Keep interventions at the *literature review or high-level evidence-type* level, with no dosages or protocols. New hypotheses must be linked to reviewed sources, with boundaries that would make the claimed outcome invalid.

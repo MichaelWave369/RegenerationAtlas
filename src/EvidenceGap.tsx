@@ -110,10 +110,10 @@ function Study({gap,onOpenLedger,onOpenNetwork,onOpenSpecies,onOpenConservation}
    <div className="gap-navigation"><span>Explore the referenced research layers</span><div><button onClick={onOpenLedger}>R0 Evidence ledger ↗</button><button onClick={onOpenNetwork}>R1 Pathways ↗</button><button onClick={onOpenSpecies}>R2 Species ↗</button><button onClick={onOpenConservation}>R3 Genes ↗</button></div></div>
   </article>;
 }
-export default function EvidenceGap({onOpenLedger,onOpenNetwork,onOpenSpecies,onOpenConservation}:{
- onOpenLedger:()=>void;onOpenNetwork:()=>void;onOpenSpecies:()=>void;onOpenConservation:()=>void;
+export default function EvidenceGap({initialGapId,onOpenLedger,onOpenNetwork,onOpenSpecies,onOpenConservation}:{
+ initialGapId:string;onOpenLedger:()=>void;onOpenNetwork:()=>void;onOpenSpecies:()=>void;onOpenConservation:()=>void;
 }){
- const [selected,setSelected]=useState('GAP-001');
+ const [selected,setSelected]=useState(initialGapId);
  const [search,setSearch]=useState('');
  const [tissue,setTissue]=useState('All');
  const [theme,setTheme]=useState('All');

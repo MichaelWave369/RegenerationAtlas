@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "5.0.0",
+  "curatedAt": "2026-10-19",
+  "scope": "Research question templates derived from R4 gaps. These are untested interpretations and MUST NOT be labeled validated or original discoveries.",
+  "hypotheses": [
+    {
+      "id": "HYP-001",
+      "gapId": "GAP-001",
+      "title": "PROX1: functional replacement must outlast an early retinal response",
+      "tissue": "Retina",
+      "genes": [
+        "PROX1"
+      ],
+      "statement": "If targeted extracellular PROX1 transfer inhibition engages a lasting regenerative program, then independently examined human-relevant retinal models should show mature, integrated new neurons, not only transient cell-state markers.",
+      "prediction": "Reproducible lineage-resolved new retinal neurons with physiological connectivity and maintained function beyond the initial intervention window.",
+      "disconfirmation": "Proliferation or neuron-like markers occur without genuine new functional connections, or improvements disappear on follow-up.",
+      "alternatives": "Injury severity, surviving neurons, treatment localization, maturity of human tissue models.",
+      "evidenceNeeded": "Replication in independent tissue models; direct identity and integration measures; long-term safety and persistence.",
+      "caution": "A mouse mechanism and a human donor-tissue observation are not proof of clinical efficacy.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-002",
+      "gapId": "GAP-002",
+      "title": "ASCL1: regenerative competence depends on injury-stage context",
+      "tissue": "Retina",
+      "genes": [
+        "ASCL1",
+        "ascl1a",
+        "ascl1b"
+      ],
+      "statement": "If injury-stage regulatory context affects ASCL1-mediated retinal regeneration, then matched cell-state comparisons will reveal distinct injury-triggered accessibility or transcriptional responses in fish and adult mammalian Müller glia.",
+      "prediction": "Reproducible species- and context-dependent state differences associated with documented retinal regeneration responses.",
+      "disconfirmation": "Comparable injury responses and reprogramming competence after accounting for cell state, tissue age, and sampling methods.",
+      "alternatives": "Fish paralog specialization, developmental stage, injury type, platform batch effects.",
+      "evidenceNeeded": "Ortholog-aware expression comparisons, single-cell state trajectories, and appropriately matched functional outcomes.",
+      "caution": "Zebrafish ascl1a necessity does not prove that ascl1b has the same role or that ASCL1 enables human repair.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-003",
+      "gapId": "GAP-003",
+      "title": "Optic axon elongation is insufficient evidence of circuit repair",
+      "tissue": "Optic nerve",
+      "genes": [
+        "PTEN",
+        "SOCS3"
+      ],
+      "statement": "If growth signaling alone fails to specify synaptic targets, then models with more regenerated optic-nerve axons will not necessarily show proportional restoration of target-specific circuits or vision.",
+      "prediction": "A mismatch between anatomical axon length and independently verified synapse targeting, physiology, or vision-related function.",
+      "disconfirmation": "Across replicated contexts, anatomical regrowth reliably predicts precise synaptic reconnection and recovered function without additional guidance.",
+      "alternatives": "Assay sensitivity, circuit compensation, neuron survival, source of measured function.",
+      "evidenceNeeded": "Independent anatomical and physiological endpoints; specificity controls; longer-term follow-up.",
+      "caution": "PTEN is a tumor suppressor. This template does not advocate gene deletion or treatment.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-004",
+      "gapId": "GAP-004",
+      "title": "Adult human retinal marker induction may not establish durable new neurons",
+      "tissue": "Retina",
+      "genes": [
+        "FGF2",
+        "GSK3A",
+        "GSK3B"
+      ],
+      "statement": "If short-term neural-lineage marker induction is an incomplete surrogate for retinal neuron regeneration, then replicate adult-donor culture results may diverge from measures of mature identity, synaptic integration, or durable activity.",
+      "prediction": "Across independent donors, marker-positive cells lack one or more well-supported hallmarks of mature connected retinal neurons despite expression changes.",
+      "disconfirmation": "Multiple independent donor studies show sustained mature cell identities, specific synapses and physiological integration aligned with the proposed lineage markers.",
+      "alternatives": "Donor selection, culture injury, imaging ambiguity, classification of glia versus neuron-like cells.",
+      "evidenceNeeded": "Independent replication, stronger lineage identification, blinded functional characterization, follow-up.",
+      "caution": "The cited 2026 human donor tissue result is a preprint and is not clinical restored vision.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-005",
+      "gapId": "GAP-005",
+      "title": "PRRX1 repair roles are conditional on cell lineage and tissue",
+      "tissue": "Heart / limb",
+      "genes": [
+        "PRRX1",
+        "prrx1a",
+        "prrx1b",
+        "Prrx1"
+      ],
+      "statement": "If PRRX1-family activity represents a context-dependent mesenchymal repair program, then some regulatory features may recur across zebrafish heart repair and axolotl limb blastema studies while downstream tissue outcomes remain distinct.",
+      "prediction": "Replicable overlaps in lineage-resolved injury-response signatures with clearly distinct organ-specific targets.",
+      "disconfirmation": "No shared response signature remains after accounting for lineage identity, stage and methods, or apparent overlap is limited to generic wound response.",
+      "alternatives": "Paralog identity, mesenchymal subpopulations, tissue sampling, injury timing.",
+      "evidenceNeeded": "Explicitly ortholog-aware comparative profiling and independent functional perturbation evidence for any proposed causal claim.",
+      "caution": "Axolotl Prrx1 observation is not a demonstrated knockout requirement for limb regrowth.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-006",
+      "gapId": "GAP-006",
+      "title": "Postnatal maturation constrains heart regeneration",
+      "tissue": "Heart",
+      "genes": [
+        "Cardiomyocyte cell-cycle regulators"
+      ],
+      "statement": "If postnatal maturation restricts cardiac muscle regeneration, then age-matched studies should reveal a decline in cardiomyocyte proliferative competence associated with the shrinking neonatal mouse repair window.",
+      "prediction": "Age-dependent differences in lineage-verified cardiomyocyte replacement and functional repair that remain after accounting for injury model.",
+      "disconfirmation": "The apparent age effect disappears after controlling injury method and outcome definitions, or direct regeneration is equivalent across tested ages.",
+      "alternatives": "Injury method, neonatal resection variability, polyploidy versus division, fibrosis and survival.",
+      "evidenceNeeded": "Lineage-specific cell-cycle evidence, injury and developmental-stage matching, independently measured function.",
+      "caution": "Neonatal mouse repair and adult human cell turnover are not interchangeable endpoints.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-007",
+      "gapId": "GAP-007",
+      "title": "YAP–EN1 scar outcomes depend on fibroblast context",
+      "tissue": "Skin",
+      "genes": [
+        "YAP1",
+        "EN1"
+      ],
+      "statement": "If fibroblast identity mediates regenerative effects of YAP–EN1 signaling, then scar architecture and restored skin appendages will vary with fibroblast lineage and timing rather than uniform YAP activity across tissues.",
+      "prediction": "Independent tissue-level outcomes correlate with specific fibroblast state changes and retain wound integrity over time.",
+      "disconfirmation": "No context-specific relationship replicates or observed scar changes come with worse healing or lost tissue function.",
+      "alternatives": "Wound tension, fibroblast heterogeneity, epithelial interactions, tissue maturity.",
+      "evidenceNeeded": "Independent model replication; tissue architecture; appendage function; long-term wound integrity.",
+      "caution": "This is not a recommendation for generalized YAP inhibition or a proven scar-free human therapy.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-008",
+      "gapId": "GAP-008",
+      "title": "Anti-Nogo-A efficacy, if any, may vary by prespecified injury class",
+      "tissue": "Spinal cord",
+      "genes": [
+        "RTN4",
+        "Nogo-A"
+      ],
+      "statement": "If clinical response to anti-Nogo-A differs by baseline injury class, then a future independently powered and prespecified analysis may reveal a reproducible interaction between baseline severity and the clinical effect.",
+      "prediction": "A prospectively specified and replicated treatment-by-injury-class interaction on a validated functional endpoint.",
+      "disconfirmation": "No replicated differential treatment effect, or exploratory subgroups fail prespecified confirmation.",
+      "alternatives": "Subgroup multiplicity, timing, functional rehabilitation, baseline measurement and random imbalance.",
+      "evidenceNeeded": "Prospective confirmatory evidence, predeclared analysis, overall primary outcome reporting.",
+      "caution": "The cited NG101 phase 2b overall primary endpoint was not met. This hypothesis does not convert that trial into a success.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-009",
+      "gapId": "GAP-009",
+      "title": "Nail-region anatomy constrains distal digit regrowth",
+      "tissue": "Limb / digit",
+      "genes": [
+        "Wnt signaling",
+        "Nail-associated stem cells"
+      ],
+      "statement": "If retained nail-associated anatomical structures contribute to distal digit regeneration, then comparable distal injuries with different residual tissue anatomy should show distinguishable regrowth outcomes even after accounting for age.",
+      "prediction": "Reproducible location-dependent anatomical associations supported by relevant cell-lineage or signaling evidence.",
+      "disconfirmation": "No consistent anatomy-regrowth association after adjusting for injury severity, or differences fully explained by unrelated variables.",
+      "alternatives": "Age, tissue retention, injury level, wound care setting and outcome reporting.",
+      "evidenceNeeded": "Clearly documented injury location, anatomical endpoints and controlled observational interpretation.",
+      "caution": "Historical human fingertip case reports do not establish whole-limb regrowth or self-care guidance.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    },
+    {
+      "id": "HYP-010",
+      "gapId": "GAP-010",
+      "title": "Myostatin-driven size does not guarantee regenerated muscle function",
+      "tissue": "Skeletal muscle",
+      "genes": [
+        "MSTN"
+      ],
+      "statement": "If myostatin-associated hypertrophy is partly distinct from tissue repair, then larger muscle size will not reliably predict restoration of injured muscle strength or physiological function across matched studies.",
+      "prediction": "Repeated dissociation between mass/volume and measured post-injury motor performance or tissue integrity.",
+      "disconfirmation": "Robust and reproducible concordance of structural repair and functional recovery matching changes in muscle mass.",
+      "alternatives": "Genetic baseline, training, developmental compensation, fiber quality and injury type.",
+      "evidenceNeeded": "Independent mass, strength, tissue-integrity and post-injury functional endpoints.",
+      "caution": "A human inherited genetic case is not a controlled treatment trial or proof of injury regeneration.",
+      "scientificStatus": "UNTESTED_HYPOTHESIS",
+      "sourceState": "DERIVED_FROM_ATLAS",
+      "progressDefault": "unreviewed",
+      "isExperimentProtocol": false
+    }
+  ],
+  "fields": [
+    {
+      "key": "prediction",
+      "label": "Predicted support"
+    },
+    {
+      "key": "disconfirmation",
+      "label": "What would challenge it"
+    },
+    {
+      "key": "alternatives",
+      "label": "Alternative explanations"
+    },
+    {
+      "key": "evidenceNeeded",
+      "label": "Evidence that would resolve it"
+    }
+  ],
+  "allowedLocalProgress": [
+    "unreviewed",
+    "reading",
+    "drafting",
+    "needs-review",
+    "parked"
+  ]
+}

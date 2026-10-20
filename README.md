@@ -1,4 +1,4 @@
-# Regeneration Atlas · R4.0
+# Regeneration Atlas · R5.0
 
 **Evidence before excitement.** An original, MIT-licensed, browser-based research atlas of proteins and pathways connected to tissue repair, cell-state reprogramming, and regeneration.
 
@@ -42,6 +42,18 @@ No genome-wide alignment, percentage-sequence-identity calculation, pharmacologi
 - Eight additional automated integrity tests catch orphan references, exaggerated clinical claims, unsupported treatments and unsupported implied gene-function transfers.
 
 Curated scientific communication only. Not a systematic review, gene editing protocol, clinical research advice, or automated hypothesis validation.
+
+## R5: Research Hypothesis Workbench
+
+- Ten source-anchored **UNTESTED** hypothesis templates, one per R4 evidence gap.
+- Each template contains an IF/THEN hypothesis, predicted supporting observations, disconfirming observations, alternative explanations, and the kinds of evidence needed to evaluate it.
+- Direct `R4 → R5` navigation: inspect the precise research gap and its linked R0–R3 source trail.
+- Personal notebook with local reading-stage status, observations, counterevidence and literature review planning.
+- Browser-local `localStorage` persistence, explicit clear, capped/validated JSON import, local export, and per-hypothesis review export. No account or server-side collection.
+- Progress labels describe **reading work**, never scientific confirmation. Personal annotations do not modify any published evidence.
+- Eight new integrity tests protect the R4 links, falsifiability, the NG101 negative human clinical trial, and preprint limitations.
+
+R5 is a curated hypothesis organization interface. It is not a novelty search, validated scientific model, experimental protocol or medical advice.
 
 ## Features
 

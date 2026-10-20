@@ -366,8 +366,8 @@
           "symbols": [
             "yap1"
           ],
-          "relationship": "one-to-one",
-          "orthologyNote": "ZFIN explicitly identifies yap1 as orthologous to human YAP1.",
+          "relationship": "curated-family-member",
+          "orthologyNote": "ZFIN explicitly annotates zebrafish yap1 as an ortholog of human YAP1; a unique one-to-one mapping is not asserted here.",
           "orthologySources": [
             {
               "title": "ZFIN yap1",
@@ -375,10 +375,10 @@
               "role": "Orthology"
             }
           ],
-          "context": "Zebrafish gene annotation and developmental function",
-          "functionalClass": "FUNCTION_OTHER_CONTEXT",
-          "finding": "Yap1 has documented developmental functions in zebrafish; no directly matched adult skin-scarring experiment is entered here.",
-          "boundary": "Homology of a growth regulator does not mean zebrafish and mammals share the same wound outcomes.",
+          "context": "Zebrafish gene annotation and developmental roles; no curated matched adult skin injury test",
+          "functionalClass": "IDENTITY_ONLY",
+          "finding": "ZFIN records zebrafish yap1 gene identity and annotations, including developmental functions; no primary adult repair experiment was curated here.",
+          "boundary": "This gene annotation does not establish the same mouse skin fibroblast response or regenerative benefit in adult zebrafish.",
           "functionSources": []
         },
         {

@@ -54,3 +54,21 @@ An arrow does not imply direct molecular contact or clinical success. When a sou
 Default view shows only peer-reviewed source-reported relations. Preprints and hypotheses require conscious opt-in. Negative clinical results continue to live in the evidence ledger even if they have no supported mechanistic edge.
 
 Run `npm test` before submitting an interaction edit; IDs and research-record references are validated automatically.
+
+## Comparative regeneration laboratory (R2)
+
+`src/data/comparative-regeneration.json` contains 12 curated evidence-case summaries across four species and four tissue categories. This is a **sparse** comparison grid. An empty matrix cell means **not yet profiled**, never that the species cannot regenerate that tissue.
+
+For every displayed case preserve:
+
+- Exact `species` and `tissue` identifiers, distinct `id` and `category`.
+- Injury condition and developmental stage. For example, neonatal mouse heart repair must not be generalized to adult mouse heart.
+- Evidence type: primary animal, primary human tissue, clinical case series, or synthesis/review. No unreviewed claim silently promoted.
+- One observed outcome (`repair`), an explicit `boundary`, functional-status language, origin (natural/induced/limited), and linked sources.
+- Mechanism keywords are **search/navigation cues**, not cross-species proof of a shared intervention.
+
+Categories (descriptive, not numeric or ranked): `endogenous`, `induced`, `restricted`, `renewal`, `limited`, and `not-established`. They summarize **different phenomena**, so they cannot be ordered into a regeneration score.
+
+A comparison between zebrafish retinal neuron replacement and human adult retinal gliosis, for instance, illustrates research gaps, **not** that transferring one factor will restore vision.
+
+Document missing context and clinical negative evidence. Do not offer treatment, dosage, or injury management advice.

@@ -506,7 +506,7 @@
         {
           "key": "gene",
           "status": "documented",
-          "explanation": "Mouse and human YAP1-related orthology is curated.",
+          "explanation": "Human and mouse YAP1 orthology is curated in the gene conservation atlas, separately from the mouse skin fibroblast injury experiment.",
           "refs": [
             {
               "kind": "R3",
@@ -730,7 +730,7 @@
         {
           "key": "mechanism",
           "status": "documented",
-          "explanation": "The R1 network records myostatin as a muscle-growth restraint.",
+          "explanation": "The R1 network records myostatin as a physiological restraint on muscle mass in a human inherited loss-of-function case, not a muscle repair intervention.",
           "refs": [
             {
               "kind": "R1",

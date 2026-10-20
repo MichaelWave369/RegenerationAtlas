@@ -89,3 +89,20 @@ A marker such as axolotl Prrx1 expression in a blastema is not proof that removi
 **Missing axolotl mappings:** `NOT_CURATED` / `not-curated` / empty symbols means no record has been verified in this atlas. Do not interpret that as gene absence. Do not rank species or assign sequence identity values without a validated reference sequence, alignment method, and release versions.
 
 Review upstream taxonomy/annotation releases before adding new mappings and capture the source, date, inference type, and uncertainties in every record. Functional labels in R3 indicate only that a particular study exists, not independent replication or therapeutic value.
+
+## Evidence gap explorer (R4)
+
+`src/data/evidence-gaps.json` uses four named evidence checkpoints: `gene`, `mechanism`, `functional`, and `human`. Every checkpoint has a `status` in `documented`, `partial`, or `not-profiled`, a claim-specific explanation, and at least one evidence pointer back to earlier R0–R3 records.
+
+The registry is an **editorial map of gaps in this atlas**. It is NOT a systematic literature review, an assertion that no scientific group has examined a question, a ranked target list, or a treatment-development program.
+
+A linked evidence pointer is `{ kind: "R0" | "R1" | "R2" | "R3", id: "..." }` with `species` also required on R3 family references. R0 resolves to a foundation paper, R1 to an interaction whose source IDs must resolve to R0, R2 to case-study publications, and R3 to separately cited orthology and functional work. No ungrounded or invented references may be added.
+
+**Status semantics:**
+- `documented`: the curated evidence reports a result, **including a null or negative clinical endpoint**. This does not imply reproducibility or clinical success.
+- `partial`: limited, indirect, preliminary, or context-bound data are curated. Human donor tissues and preprints do not qualify as proven in-vivo human repair.
+- `not-profiled`: the requested endpoint is not established in the curated material. Never translate this to 'scientifically impossible' or 'nobody has tested this anywhere'.
+
+Each record requires a specific, falsifiable-ish research question, a clear reason for classification, a safety/context caveat, and suggested **kinds of evidence** rather than operative protocols. Reconcile all references after upstream data changes, review DOI/source validity, retain negative results, and run the tests.
+
+Source links in downloaded Markdown briefs refer to upstream publications and databases. Generated briefs are **questions for literature review**, not novel clinical claims, safe DIY experiments, or regulator-approved interventions.

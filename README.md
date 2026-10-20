@@ -1,4 +1,4 @@
-# Regeneration Atlas · R2.0
+# Regeneration Atlas · R3.0
 
 **Evidence before excitement.** An original, MIT-licensed, browser-based research atlas of proteins and pathways connected to tissue repair, cell-state reprogramming, and regeneration.
 
@@ -17,6 +17,19 @@
 - Empty cells mean **not profiled**, never absence of biological capacity. Zebrafish fins are not treated as homologous human limbs.
 - No regeneration ranking, species score, or unsupported cross-species transfer claim.
 - New tests validate all unique species–tissue cases, cited sources, age/injury conditions, and honest clinical limitations.
+
+## R3: Gene Conservation Explorer
+
+A curated, source-linked **5-gene × 4-species** evidence view for ASCL1, PTEN, PROX1, YAP1 and PRRX1.
+
+- Clearly distinguishes **orthologous gene identity**, context-specific molecular behavior, experimental tissue repair, and clinical efficacy.
+- Preserves zebrafish co-orthologs (ascl1a/ascl1b, ptena/ptenb, prrx1a/prrx1b) rather than silently collapsing duplicates.
+- Lists 4 axolotl gene mappings as **not curated**, not absent. Axolotl Prrx1 is retained as a curated name and blastema marker, not claimed as a proven indispensable limb-regrowth switch.
+- Displays source links and limitations for each species record; explicit notes distinguish adult zebrafish injury experiments, mouse interventions, human donor/culture observations, developmental assays, and gene identification only.
+- Offers two-species comparison, tissue/gene search, evidence filters, research JSON export, and links to R1 and R2.
+- Adds six automated validation tests alongside the existing evidence and interaction tests.
+
+No genome-wide alignment, percentage-sequence-identity calculation, pharmacological prescription or clinical claims. Manuscript and orthology sources remain linked and bounded.
 
 ## Features
 

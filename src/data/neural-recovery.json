@@ -1,0 +1,232 @@
+{
+  "version": "R6.0",
+  "module": "Neural Recovery Atlas",
+  "updated": "2026-10-20",
+  "scope": "Selected primary studies; curated research map, not a systematic review or a clinical decision tool.",
+  "states": [
+    {
+      "id": "functional",
+      "label": "Functioning",
+      "status": "Reference state",
+      "description": "A living dopaminergic neuron with established phenotype and activity. A reference concept, not a diagnostic baseline for individuals.",
+      "readouts": [
+        "Neuronal viability",
+        "Dopamine release and activity",
+        "Cell identity markers"
+      ],
+      "boundary": "No single biomarker establishes whole-neuron health; functions change with context."
+    },
+    {
+      "id": "impaired",
+      "label": "Function impaired",
+      "status": "Potentially viable",
+      "description": "The neuron or its terminals may remain present while measured neurotransmission or related imaging signals are abnormal.",
+      "readouts": [
+        "Functional measures",
+        "VMAT2 PET binding in human striatum",
+        "Structural viability measures"
+      ],
+      "boundary": "Reduced VMAT2 binding is not a cell count and cannot distinguish reversible regulation from terminal loss on its own."
+    },
+    {
+      "id": "senescence",
+      "label": "Senescence-associated",
+      "status": "Research phenotype",
+      "description": "A stress/inflammatory program resembling cellular senescence can appear in neurons, which are already mostly post-mitotic.",
+      "readouts": [
+        "Multiple senescence markers",
+        "Inflammatory transcription",
+        "Neuron-specific functional assays"
+      ],
+      "boundary": "Neuronal senescence is not simply 'stopped dividing'. Marker expression alone cannot establish permanent or reversible senescence."
+    },
+    {
+      "id": "lost",
+      "label": "Neuron or terminal lost",
+      "status": "Structural endpoint",
+      "description": "Loss of cells or projections requires anatomical evidence and is biologically different from a change in molecular or imaging signal.",
+      "readouts": [
+        "Verified neuron/terminal counts",
+        "Anatomical tracing and histology",
+        "Functional consequences"
+      ],
+      "boundary": "None of the studies in this R6 collection establishes progressive loss of dopamine neurons in people with long COVID."
+    }
+  ],
+  "studies": [
+    {
+      "id": "NR-001",
+      "year": 2024,
+      "title": "SARS-CoV-2 infection causes dopaminergic neuron senescence",
+      "authors": "Yang et al.",
+      "journal": "Cell Stem Cell",
+      "model": "Human stem-cell-derived midbrain dopamine neurons, transplantation model and postmortem tissue",
+      "tier": "Preclinical + autopsy",
+      "category": "Cell / tissue",
+      "doi": "10.1016/j.stem.2023.12.012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38237586/",
+      "observed": "Human stem-cell-derived dopamine neurons were susceptible to infection in experimental settings and developed inflammatory and senescence-associated responses. Related signatures were detected in examined postmortem midbrain samples.",
+      "notShown": "This does not establish how commonly human dopamine neurons are infected in ordinary COVID, whether these changes are permanent, or that COVID causes Parkinson's disease.",
+      "context": "A drug screen identified riluzole, metformin and imatinib as hits under experimental conditions; no evidence of human treatment efficacy or neuron rejuvenation was established.",
+      "tags": [
+        "SARS-CoV-2",
+        "dopamine neurons",
+        "senescence",
+        "SNCA"
+      ],
+      "provenance": "PEER_REVIEWED_PRIMARY",
+      "disclosure": "Review disclosures in the primary article; bench-screen hits are not treatment recommendations.",
+      "correction": null
+    },
+    {
+      "id": "NR-002",
+      "year": 2026,
+      "title": "Loss of vesicular monoamine transporter 2 in striatum of long COVID and relationship to neuropsychiatric symptoms",
+      "authors": "Liu et al.",
+      "journal": "eBioMedicine",
+      "model": "Human case-control PET; 24 adults with long COVID and 24 matched controls (43 controls in exploratory comparison)",
+      "tier": "Human observational",
+      "category": "Human imaging",
+      "doi": "10.1016/j.ebiom.2026.106339",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42431745/",
+      "observed": "Striatal VMAT2 PET binding was lower in the long-COVID group; regional binding was associated with measures including apathy, motor slowing and exploratory memory findings.",
+      "notShown": "PET binding does not directly count living dopamine neurons or establish causation, direct viral brain infection, individual prognosis, reversibility, or efficacy of dopamine-targeting therapy.",
+      "context": "Small observational sample, exploratory correlations, and an author-disclosed pending patent application related to a long-COVID dopamine treatment require caution.",
+      "tags": [
+        "SLC18A2 / VMAT2",
+        "dopamine terminals",
+        "long COVID",
+        "PET"
+      ],
+      "provenance": "PEER_REVIEWED_PRIMARY_WITH_CORRIGENDUM",
+      "disclosure": "The paper reports a lead-author patent application for a rasagiline/tyramine-based long-COVID approach and other financial interests. Check the declaration in the study.",
+      "correction": {
+        "doi": "10.1016/j.ebiom.2026.106472",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42700719/",
+        "date": "2026-09-05",
+        "summary": "A published corrigendum corrected supplementary data and selected negative/exploratory analyses; authors stated primary interpretation was unchanged. Consult the updated paper and correction together."
+      }
+    },
+    {
+      "id": "NR-003",
+      "year": 2023,
+      "title": "Senolytic therapy alleviates physiological human brain aging and COVID-19 neuropathology",
+      "authors": "Xu et al.",
+      "journal": "Nature Aging",
+      "model": "Human brain organoids, postmortem tissue and SARS-CoV-2-exposed transgenic mice",
+      "tier": "Preclinical + autopsy",
+      "category": "Cell / tissue",
+      "doi": "10.1038/s43587-023-00519-6",
+      "url": "https://www.nature.com/articles/s43587-023-00519-6",
+      "observed": "Senescence-associated signals appeared in infected organoids and postmortem tissue. In research models, senolytic approaches reduced some inflammatory and viral readouts; mouse experiments reported improved dopamine-neuron survival.",
+      "notShown": "Organoid and mouse outcomes do not prove safe senolytic treatments, reversal of established neuron dysfunction, or prevention of neurological disease in humans.",
+      "context": "Different models and interventions from NR-001; improvements in experimental animal outcomes are not clinical efficacy.",
+      "tags": [
+        "senolytics",
+        "neuroinflammation",
+        "brain organoids",
+        "mouse"
+      ],
+      "provenance": "PEER_REVIEWED_PRIMARY",
+      "disclosure": "Interventions discussed are experimental in this context and not recommended for self-treatment.",
+      "correction": null
+    }
+  ],
+  "markers": [
+    {
+      "id": "VMAT2",
+      "name": "VMAT2 · SLC18A2",
+      "role": "Vesicular monoamine transporter; PET target in NR-002",
+      "meaning": "A proxy for aspects of monoaminergic terminal integrity, not a direct neuron count.",
+      "sourceIds": [
+        "NR-002"
+      ]
+    },
+    {
+      "id": "SNCA",
+      "name": "α-synuclein · SNCA",
+      "role": "Parkinson-related protein / susceptibility context",
+      "meaning": "Gene dosage associations in an experimental model do not establish Parkinson's risk after COVID.",
+      "sourceIds": [
+        "NR-001"
+      ]
+    },
+    {
+      "id": "SASP",
+      "name": "Senescence-associated secretory phenotype",
+      "role": "Inflammatory mediators and signaling state",
+      "meaning": "A broad phenotype, not one protein or a single validated neuronal test.",
+      "sourceIds": [
+        "NR-001",
+        "NR-003"
+      ]
+    },
+    {
+      "id": "P16",
+      "name": "p16 · CDKN2A",
+      "role": "Common senescence-associated marker",
+      "meaning": "In a post-mitotic neuron, marker positivity alone is not proof of irreversible aging.",
+      "sourceIds": [
+        "NR-003"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "NR-Q01",
+      "title": "Can living dopamine neurons regain function after a senescence-associated response?",
+      "status": "UNTESTED_HYPOTHESIS",
+      "sourceIds": [
+        "NR-001",
+        "NR-003"
+      ],
+      "prediction": "If some senescence-associated neuronal dysfunction is reversible, longitudinal models should show regained neurotransmission and normalization of multiple stress markers in viable, tracked neurons.",
+      "falsifier": "Persistent loss of function despite survival and resolution of stress signals, or apparent recovery explained entirely by selection of surviving healthy cells.",
+      "alternative": "Changes may represent transient inflammatory stress rather than stable neuronal senescence.",
+      "evidenceNeeded": "Track the same identified neurons over time with viability, function and multi-marker measurements; independent replication.",
+      "boundary": "No study here demonstrates a human neuron-rejuvenation treatment."
+    },
+    {
+      "id": "NR-Q02",
+      "title": "Does reduced human VMAT2 binding reflect regulation, terminal injury, or both?",
+      "status": "UNTESTED_HYPOTHESIS",
+      "sourceIds": [
+        "NR-002"
+      ],
+      "prediction": "If VMAT2 regulation contributes independently of permanent terminal loss, longitudinal binding and complementary functional measures may recover without evidence of anatomical regrowth.",
+      "falsifier": "Stable binding deficits alongside independent evidence of terminal loss despite symptom changes.",
+      "alternative": "Differences in medication exposure, group composition or other biological factors may influence PET signals.",
+      "evidenceNeeded": "Replication in larger cohorts with medication controls, complementary imaging, and repeated measurements.",
+      "boundary": "PET alone cannot tell how many cells have died."
+    },
+    {
+      "id": "NR-Q03",
+      "title": "Are neuronal changes driven by direct infection, indirect inflammation, or both?",
+      "status": "UNTESTED_HYPOTHESIS",
+      "sourceIds": [
+        "NR-001",
+        "NR-003"
+      ],
+      "prediction": "If mechanisms differ, experiments separating direct infection and noninfectious inflammatory exposure should produce distinguishable cell-type and molecular signatures.",
+      "falsifier": "Comparable signatures without demonstrable neuronal infection, or signatures explained by a shared nonspecific stress response.",
+      "alternative": "Systemic immune, vascular, and treatment-related effects may contribute to symptoms independently of neuronal infection.",
+      "evidenceNeeded": "Multiple human-relevant models, carefully controlled tissue comparisons and independent clinical corroboration.",
+      "boundary": "Culture susceptibility cannot establish prevalence of in-vivo neuronal infection."
+    },
+    {
+      "id": "NR-Q04",
+      "title": "Do preclinical improvements predict meaningful, safe human recovery?",
+      "status": "UNTESTED_HYPOTHESIS",
+      "sourceIds": [
+        "NR-001",
+        "NR-003",
+        "NR-002"
+      ],
+      "prediction": "A credible clinical benefit would require controlled human evidence of improved function and acceptable safety, beyond molecular biomarker changes.",
+      "falsifier": "No clinically important benefit in rigorous controlled studies, or unacceptable adverse effects despite favorable biomarkers.",
+      "alternative": "The original lab effects may depend on viral strain, dosing context, model limitations or non-neuronal pathways.",
+      "evidenceNeeded": "Independent mechanistic replication, safety characterization and appropriately designed human trials by qualified researchers.",
+      "boundary": "No medications, dosages, protocols or self-experiment instructions are provided."
+    }
+  ]
+}

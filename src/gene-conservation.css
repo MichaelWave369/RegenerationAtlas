@@ -1,0 +1,84 @@
+.conservation-lab{color:#e3f1f0}
+.conservation-overline{font-size:10px;letter-spacing:.16em;font-weight:850;color:#79dac4}
+.conservation-banner{display:flex;justify-content:space-between;align-items:flex-end;gap:25px;border-radius:12px;border:1px solid #346e66;background:linear-gradient(120deg,#103c36,#102934);padding:27px}
+.conservation-banner h3{font-size:29px;line-height:1.16;letter-spacing:-.04em;margin:12px 0}
+.conservation-banner p{font-size:13px;line-height:1.75;color:#b9d2d0;max-width:760px;margin:0}.conservation-banner p strong{color:#e4f7ee}
+.conservation-export{background:#77e6cc;color:#092821;border:0;border-radius:7px;padding:12px 15px;white-space:nowrap;font-size:12px;font-weight:800}
+.conservation-metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:17px;border-radius:10px;overflow:hidden;border:1px solid #2b555f}
+.conservation-metrics div{display:flex;flex-direction:column;gap:5px;background:#102a34;padding:18px}
+.conservation-metrics div+div{border-left:1px solid #2b555f}
+.conservation-metrics strong{font-size:31px;line-height:1}.conservation-metrics span{font-size:11px;color:#a4bdc3}
+.conservation-note{background:#133b36a6;border-left:3px solid #6bdec6;padding:16px 18px;margin:22px 0;color:#bad4d2;font-size:12px;line-height:1.65}
+.conservation-note strong{color:#d3f5e8}
+.conservation-toolbar{display:flex;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:16px}
+.conservation-toolbar label:first-child{display:flex;flex-direction:column;gap:8px;min-width:220px;flex:1;font-size:10px;font-weight:800;letter-spacing:.08em;color:#8db4b9}
+.conservation-toolbar input[type=text],.conservation-toolbar label>input:not([type]){background:#112c35;padding:12px;border:1px solid #3d636a;border-radius:7px;width:100%;font-size:13px;color:#e0f0ed}
+.conservation-checkbox{display:inline-flex;align-items:center;gap:10px;font-size:12px;color:#b9cece;padding:10px 0;cursor:pointer}
+.conservation-checkbox input{accent-color:#65d6b6;width:16px;height:16px}
+.conservation-matrix-scroll{overflow:auto;max-width:100%;border:1px solid #2e535c;border-radius:9px;scrollbar-color:#517a7a #12252c}
+.conservation-matrix-scroll:focus-visible{outline:2px solid #8cead6;outline-offset:3px}
+.conservation-matrix{width:100%;min-width:870px;table-layout:fixed;border-spacing:0;border-collapse:separate}
+.conservation-matrix caption{text-align:left;caption-side:top;padding:14px 17px;background:#102c35;color:#a8c5c8;font-size:11px;line-height:1.5}
+.conservation-matrix th,.conservation-matrix td{border-right:1px solid #2c5059;border-bottom:1px solid #2c5059;vertical-align:stretch;padding:7px}
+.conservation-matrix thead th{background:#153641;padding:13px;font-size:12px;color:#bcd5d6;text-align:left}
+.conservation-matrix th:first-child{width:170px}
+.conservation-matrix tbody th{background:#122d38}.conservation-matrix tbody tr.selected th{background:#1b4143}
+.conservation-matrix tbody th button{background:transparent;border:0;color:#e5f6f0;display:flex;flex-direction:column;gap:8px;text-align:left;width:100%;padding:9px;min-height:99px;cursor:pointer}
+.conservation-matrix tbody th strong{font-size:16px}.conservation-matrix tbody th small{font-size:10px;color:#9fb6bc;line-height:1.5}.conservation-matrix tbody th span{font-size:11px;color:#88e6cf;margin-top:auto}
+.conservation-matrix td{background:#0e2630}
+.conservation-cell{border:1px solid #315d5b;background:#17493f;border-radius:7px;color:#dff2ef;min-height:99px;height:100%;width:100%;text-align:left;display:flex;flex-direction:column;gap:7px;padding:12px;cursor:pointer}
+.conservation-cell strong{font-size:12px;line-height:1.4}.conservation-cell span{font-size:10px;font-weight:700;color:#a4e7d4}.conservation-cell small{font-size:10px;color:#9dbbc0;line-height:1.4}
+.conservation-cell.function_other_context,.conservation-cell.identity_only{background:#192f3c;border-color:#476174}.conservation-cell.function_other_context span,.conservation-cell.identity_only span{color:#b8cde2}
+.conservation-cell.tissue_observation{background:#30364a;border-color:#616b8c}.conservation-cell.tissue_observation span{color:#c5c9ec}
+.conservation-cell.culture_experiment{background:#2c3b4e;border-color:#7a79a6}.conservation-cell.culture_experiment span{color:#c5beee}
+.conservation-cell.not_curated{background:#1b2831;border-style:dashed;border-color:#415560}.conservation-cell.not_curated span{color:#91a6af}
+.conservation-matrix th:last-child,.conservation-matrix td:last-child{border-right:0}
+.conservation-matrix tbody tr:last-child th,.conservation-matrix tbody tr:last-child td{border-bottom:0}
+.conservation-cell:hover,.conservation-matrix button:hover{outline:1px solid #b0e8d9;outline-offset:-1px}
+.conservation-matrix button:focus-visible{outline:3px solid #fff;outline-offset:1px}
+.conservation-empty{padding:20px;color:#b1c7cd}
+.conservation-legend{display:flex;gap:15px;flex-wrap:wrap;margin:16px 0 34px}
+.conservation-legend>span{display:inline-flex;align-items:center;gap:7px;font-size:11px;color:#a3bdc2}
+.conservation-legend .dot{width:10px;height:10px;border-radius:3px;background:#267966;display:inline-block}
+.conservation-legend .dot.culture{background:#8673b6}.conservation-legend .dot.observation{background:#676e9e}.conservation-legend .dot.identity{background:#567285}.conservation-legend .dot.unc{background:#465966;border:1px dashed #9cb4bc}
+.conservation-family{display:grid;grid-template-columns:minmax(0,1fr) minmax(240px,.7fr);gap:20px;padding:20px 0;border-top:1px solid #2c525b}
+.conservation-family h3{font-size:27px;letter-spacing:-.03em;margin:10px 0}.conservation-family p{font-size:13px;color:#b7ced0;line-height:1.7}
+.conservation-safety{padding:16px;background:#3c302c6e;border-left:2px solid #dbb179;border-radius:5px;align-self:center}
+.conservation-safety strong{font-size:12px;color:#f0cc96}.conservation-safety p{color:#dbc7af;font-size:12px}
+.conservation-compare-controls{display:flex;align-items:end;gap:15px;margin:20px 0}
+.conservation-compare-controls>div{flex:1;display:flex;flex-direction:column;gap:8px}
+.conservation-compare-controls>div strong{font-size:17px}.conservation-compare-controls>div span{font-size:12px;color:#a1bdc2}
+.conservation-compare-controls label{display:flex;flex-direction:column;gap:7px;color:#9ebbbf;font-size:10px;letter-spacing:.1em;font-weight:750}
+.conservation-compare-controls select{background:#0d2933;border:1px solid #38616d;color:#e2f1ef;border-radius:7px;padding:11px;min-width:135px}
+.conservation-warning{border-left:3px solid #e1b173;background:#563e2c7b;padding:12px 15px;font-size:12px;color:#ecd0a6;margin:12px 0}
+.conservation-side-by-side{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}
+.conservation-inspect{border-radius:9px;background:#0d2833;border:1px solid #2f5864;padding:21px;min-width:0}
+.conservation-inspect.uncurated{border-style:dashed}
+.conservation-inspect-heading{display:flex;align-items:flex-start;gap:10px;justify-content:space-between}
+.conservation-inspect-heading>span:first-child{font-size:10px;color:#84d9c7;font-weight:800;letter-spacing:.13em}
+.conservation-function{font-size:10px;color:#9fe8d0;background:#1a4941;padding:6px 8px;border-radius:99px;text-align:right}
+.conservation-function.identity_only,.conservation-function.function_other_context,.conservation-function.not_curated{color:#bed0e4;background:#263b4a}
+.conservation-function.tissue_observation,.conservation-function.culture_experiment{color:#d2cef9;background:#333954}
+.conservation-inspect h4{font-size:23px;margin:17px 0 5px}
+.conservation-topic{font-size:12px;color:#93b0bb;margin:0 0 20px}
+.conservation-attribute,.conservation-tissue{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;padding:12px 0;border-top:1px solid #32505c;font-size:12px}
+.conservation-attribute strong,.conservation-tissue span{color:#9bb9c0}
+.conservation-attribute span,.conservation-tissue strong{text-align:right;color:#e0ece9}
+.conservation-orthologynote{font-size:12px;line-height:1.65;color:#bbd1d0}
+.conservation-smallheading{font-size:10px;letter-spacing:.12em;font-weight:850;color:#9ccac9;margin:22px 0 9px}
+.conservation-sources{display:flex;flex-direction:column;gap:7px}
+.conservation-sources a{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px;background:#173a3f;border:1px solid #31585d;border-radius:6px;color:#8be9d4;overflow-wrap:anywhere}
+.conservation-sources strong{font-size:11px;line-height:1.5}
+.conservation-sources span{font-size:10px;color:#a5c5cb;white-space:nowrap}
+.conservation-tissue{margin-top:20px}
+.conservation-finding,.conservation-boundary{padding:16px;background:#1540386e;border:1px solid #286358;border-radius:7px;margin-top:15px}
+.conservation-boundary{background:#43352979;border-color:#74533d}
+.conservation-finding strong{color:#90e7d0;font-size:12px}.conservation-boundary strong{color:#efd09c;font-size:12px}
+.conservation-finding p,.conservation-boundary p{color:#d0e0dd;font-size:12px;line-height:1.7;margin:9px 0 0}
+.conservation-bridge{border:1px solid #34645e;background:#133632;border-radius:9px;padding:22px;margin-top:29px;display:flex;justify-content:space-between;align-items:center;gap:25px}
+.conservation-bridge h4{font-size:19px;margin:10px 0}.conservation-bridge p{color:#a9c7c3;font-size:12px;line-height:1.6;margin:0}
+.conservation-bridge>div:last-child{display:flex;flex-direction:column;gap:9px;min-width:215px}
+.conservation-bridge button{border:1px solid #78d9c8;background:transparent;border-radius:7px;color:#a8f4df;padding:12px;white-space:nowrap;cursor:pointer;font-size:12px;font-weight:750}
+.conservation-footer{color:#8faab1;line-height:1.7;font-size:11px;margin:18px 0}
+@media(max-width:1050px){.conservation-banner,.conservation-bridge{flex-direction:column;align-items:stretch}.conservation-family{grid-template-columns:1fr}}
+@media(max-width:760px){.conservation-banner{padding:19px}.conservation-banner h3{font-size:24px}.conservation-side-by-side{grid-template-columns:1fr}.conservation-compare-controls{flex-wrap:wrap}.conservation-compare-controls>div{flex-basis:100%}.conservation-compare-controls label{flex:1}.conservation-compare-controls select{min-width:100%}.conservation-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.conservation-metrics div:nth-child(3){border-left:0;border-top:1px solid #2b555f}.conservation-metrics div:nth-child(4){border-top:1px solid #2b555f}.conservation-bridge>div:last-child{min-width:0}.conservation-bridge button{white-space:normal}}

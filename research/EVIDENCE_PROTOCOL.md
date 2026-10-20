@@ -72,3 +72,20 @@ Categories (descriptive, not numeric or ranked): `endogenous`, `induced`, `restr
 A comparison between zebrafish retinal neuron replacement and human adult retinal gliosis, for instance, illustrates research gaps, **not** that transferring one factor will restore vision.
 
 Document missing context and clinical negative evidence. Do not offer treatment, dosage, or injury management advice.
+
+## Gene conservation and orthology (R3)
+
+The `src/data/gene-conservation.json` file is a curated **literature and model-organism-database snapshot**, not a complete genomics pipeline or protein sequence-alignment tool.
+
+Separate independent kinds of evidence:
+
+1. **Gene orthology / relationship:** source-link authoritative comparative gene annotation, distinguish fish gene duplicates (co-orthologs) from human singletons, and record ambiguity instead of inferring a one-to-one mapping.
+2. **Reported function:** document organism, developmental stage, injury/culture conditions, and the specific intervention or observation.
+3. **Tissue regeneration outcome:** explicitly differentiate loss of function, gain of function, expression/lineage marking, ex vivo cultures, and functional recovery.
+4. **Clinical translation:** no mouse, fish, or fetal-human culture result establishes an approved human treatment.
+
+A marker such as axolotl Prrx1 expression in a blastema is not proof that removing that gene blocks limb regrowth. Zebrafish prrx1b heart effects must not be generalized to prrx1a. Zebrafish prox1a gene orthology does not establish the mouse PROX1 intercellular-transfer mechanism.
+
+**Missing axolotl mappings:** `NOT_CURATED` / `not-curated` / empty symbols means no record has been verified in this atlas. Do not interpret that as gene absence. Do not rank species or assign sequence identity values without a validated reference sequence, alignment method, and release versions.
+
+Review upstream taxonomy/annotation releases before adding new mappings and capture the source, date, inference type, and uncertainties in every record. Functional labels in R3 indicate only that a particular study exists, not independent replication or therapeutic value.

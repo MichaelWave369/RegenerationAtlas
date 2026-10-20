@@ -1,0 +1,519 @@
+{
+  "schemaVersion": "3.0.0",
+  "lastCurated": "2026-10-19",
+  "notes": "Manually curated evidence snapshots, not a complete orthology database. Orthology, observed tissue function and demonstrated regeneration are separately recorded.",
+  "species": [
+    "Human",
+    "Mouse",
+    "Zebrafish",
+    "Axolotl"
+  ],
+  "families": [
+    {
+      "id": "ASCL1",
+      "humanSymbol": "ASCL1",
+      "displayName": "Achaete-scute family bHLH transcription factor 1",
+      "category": "Neuronal cell-state regulator",
+      "tissueFocus": "Retina",
+      "question": "Why is zebrafish ascl1a part of an endogenous injury response while mouse Ascl1 requires additional experimental conditions?",
+      "safety": "Regulatory context, injury stage, and chromatin state matter. Forced expression is not an established human treatment.",
+      "cells": [
+        {
+          "species": "Human",
+          "symbols": [
+            "ASCL1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Human reference gene; vertebrate family orthology is curated by ZFIN/MGI.",
+          "orthologySources": [
+            {
+              "title": "MGI: ASCL1 human ortholog",
+              "url": "https://www.informatics.jax.org/marker/MGI:96919",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Adult human retina",
+          "functionalClass": "IDENTITY_ONLY",
+          "finding": "The human ASCL1 gene is conserved; this curated dataset does not include a human retinal repair experiment showing restored vision.",
+          "boundary": "Orthology does not show a naturally activated human regeneration program or prove treatment efficacy.",
+          "functionSources": []
+        },
+        {
+          "species": "Mouse",
+          "symbols": [
+            "Ascl1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Mouse Ascl1 is curated as the ortholog of human ASCL1.",
+          "orthologySources": [
+            {
+              "title": "MGI Ascl1",
+              "url": "https://www.informatics.jax.org/marker/MGI:96919",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Adult mouse retina; Ascl1 expression plus HDAC inhibition",
+          "functionalClass": "DIRECT_INJURY_EXPERIMENT",
+          "finding": "In adult mice, experimental Ascl1 expression combined with chromatin modulation produced retinal neuron-like cells with reported light responses.",
+          "boundary": "Not a natural untreated repair response or proof of human vision restoration.",
+          "functionSources": [
+            {
+              "title": "Jorstad et al., Nature (2017)",
+              "url": "https://doi.org/10.1038/nature23283",
+              "role": "Primary mouse experiment"
+            }
+          ]
+        },
+        {
+          "species": "Zebrafish",
+          "symbols": [
+            "ascl1a",
+            "ascl1b"
+          ],
+          "relationship": "one-to-many",
+          "orthologyNote": "Two annotated zebrafish co-orthologs; the cited retinal injury experiment specifically tested ascl1a.",
+          "orthologySources": [
+            {
+              "title": "ZFIN ascl1a",
+              "url": "https://zfin.org/ZDB-GENE-980526-90",
+              "role": "Orthology"
+            },
+            {
+              "title": "ZFIN ascl1b",
+              "url": "https://zfin.org/ZDB-GENE-980526-174",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Adult zebrafish retina after injury",
+          "functionalClass": "DIRECT_INJURY_EXPERIMENT",
+          "finding": "Knockdown of ascl1a suppressed injury-induced Müller glia proliferation and retinal progenitor production.",
+          "boundary": "Do not assign the ascl1a retinal phenotype to ascl1b without a separate experiment.",
+          "functionSources": [
+            {
+              "title": "Fausett et al., J Neurosci (2008)",
+              "url": "https://doi.org/10.1523/JNEUROSCI.4853-07.2008",
+              "role": "Primary fish experiment"
+            }
+          ]
+        },
+        {
+          "species": "Axolotl",
+          "symbols": [],
+          "relationship": "not-curated",
+          "orthologyNote": "Not manually curated in this release. This is not a claim that the gene is absent.",
+          "orthologySources": [],
+          "context": "No species-specific functional record curated for this gene family.",
+          "functionalClass": "NOT_CURATED",
+          "finding": "No evidence record entered.",
+          "boundary": "Missing evidence in this atlas cannot establish absence of a gene, pathway, or regenerative capacity.",
+          "functionSources": []
+        }
+      ]
+    },
+    {
+      "id": "PTEN",
+      "humanSymbol": "PTEN",
+      "displayName": "Phosphatase and tensin homolog",
+      "category": "Growth-control brake / tumor suppressor",
+      "tissueFocus": "Optic nerve",
+      "question": "How do PTEN pathway functions persist across species while tissue repair remains sharply constrained in adult mammals?",
+      "safety": "PTEN is a protective tumor suppressor; systemic or permanent inactivation is not an acceptable inference from nerve growth studies.",
+      "cells": [
+        {
+          "species": "Human",
+          "symbols": [
+            "PTEN"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Human PTEN is the reference against which ZFIN annotates zebrafish ptena and ptenb.",
+          "orthologySources": [
+            {
+              "title": "ZFIN ptena orthology",
+              "url": "https://zfin.org/ZDB-GENE-030131-3776",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Human tumor-suppressor gene; no regenerative treatment study profiled",
+          "functionalClass": "IDENTITY_ONLY",
+          "finding": "PTEN is conserved and involved in regulating cell growth; the comparative dataset does not contain human PTEN gene-blockade regeneration efficacy.",
+          "boundary": "The protective tumor-suppression function is fundamental; no general human PTEN knockout therapy is implied.",
+          "functionSources": []
+        },
+        {
+          "species": "Mouse",
+          "symbols": [
+            "Pten"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Mouse Pten is orthologous to human PTEN, as recorded in ZFIN comparative orthology.",
+          "orthologySources": [
+            {
+              "title": "ZFIN ptena human/mouse orthology",
+              "url": "https://zfin.org/ZDB-GENE-030131-3776",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Adult mouse optic nerve crush; retinal ganglion-cell-specific deletion",
+          "functionalClass": "DIRECT_INJURY_EXPERIMENT",
+          "finding": "Targeted Pten deletion together with Socs3 deletion increased sustained axon growth in experimental mice.",
+          "boundary": "A combined mouse deletion is not a safe human intervention or evidence of fully restored vision.",
+          "functionSources": [
+            {
+              "title": "Sun et al., Nature (2011)",
+              "url": "https://doi.org/10.1038/nature10594",
+              "role": "Primary mouse experiment"
+            }
+          ]
+        },
+        {
+          "species": "Zebrafish",
+          "symbols": [
+            "ptena",
+            "ptenb"
+          ],
+          "relationship": "one-to-many",
+          "orthologyNote": "Two experimentally characterized fish orthologs of single mammalian PTEN, with distinct developmental roles.",
+          "orthologySources": [
+            {
+              "title": "ZFIN ptena",
+              "url": "https://zfin.org/ZDB-GENE-030131-3776",
+              "role": "Orthology"
+            },
+            {
+              "title": "ZFIN ptenb",
+              "url": "https://zfin.org/ZDB-GENE-030616-47",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Zebrafish embryonic development, not adult retinal repair",
+          "functionalClass": "FUNCTION_OTHER_CONTEXT",
+          "finding": "Embryonic knockdown experiments implicated both Ptena and Ptenb in AKT pathway control and found distinct developmental phenotypes.",
+          "boundary": "Developmental signaling experiments cannot establish that either fish gene explains adult zebrafish regeneration.",
+          "functionSources": [
+            {
+              "title": "Croushore et al., developmental study",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2611959/",
+              "role": "Primary fish experiment"
+            }
+          ]
+        },
+        {
+          "species": "Axolotl",
+          "symbols": [],
+          "relationship": "not-curated",
+          "orthologyNote": "Not manually curated in this release. This is not a claim that the gene is absent.",
+          "orthologySources": [],
+          "context": "No species-specific functional record curated for this gene family.",
+          "functionalClass": "NOT_CURATED",
+          "finding": "No evidence record entered.",
+          "boundary": "Missing evidence in this atlas cannot establish absence of a gene, pathway, or regenerative capacity.",
+          "functionSources": []
+        }
+      ]
+    },
+    {
+      "id": "PROX1",
+      "humanSymbol": "PROX1",
+      "displayName": "Prospero homeobox 1",
+      "category": "Cell identity / extracellular transfer",
+      "tissueFocus": "Retina",
+      "question": "Does the mouse extracellular-PROX1 transfer mechanism occur in comparable form in regenerating fish Müller glia?",
+      "safety": "PROX1 is important in lymphatic and cell-identity biology; blocking a localized transfer event is not equivalent to global PROX1 elimination.",
+      "cells": [
+        {
+          "species": "Human",
+          "symbols": [
+            "PROX1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Reference human ortholog of zebrafish prox1a.",
+          "orthologySources": [
+            {
+              "title": "ZFIN prox1a orthology",
+              "url": "https://zfin.org/ZDB-GENE-980526-397",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Human retinal donor tissue in the 2025 study",
+          "functionalClass": "TISSUE_OBSERVATION",
+          "finding": "The mouse intervention paper included PROX1 localization observations in degenerating human retinal tissue.",
+          "boundary": "A donor-tissue observation does not show regenerated neurons or restored vision in living humans.",
+          "functionSources": [
+            {
+              "title": "Lee et al., Nature Communications (2025)",
+              "url": "https://doi.org/10.1038/s41467-025-58290-8",
+              "role": "Human donor-tissue observation"
+            }
+          ]
+        },
+        {
+          "species": "Mouse",
+          "symbols": [
+            "Prox1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Mouse Prox1 is part of the conserved PROX1 family.",
+          "orthologySources": [
+            {
+              "title": "ZFIN cross-species prox1a orthology",
+              "url": "https://zfin.org/ZDB-GENE-980526-397",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Mouse injury/degeneration retina",
+          "functionalClass": "DIRECT_INJURY_EXPERIMENT",
+          "finding": "An extracellular antibody strategy reducing PROX1 transfer into Müller glia promoted experimental retinal neuron regeneration and slowed vision loss in mice.",
+          "boundary": "The intervention is experimental and the study did not establish durable human clinical benefit.",
+          "functionSources": [
+            {
+              "title": "Lee et al., Nature Communications (2025)",
+              "url": "https://doi.org/10.1038/s41467-025-58290-8",
+              "role": "Primary mouse experiment"
+            }
+          ]
+        },
+        {
+          "species": "Zebrafish",
+          "symbols": [
+            "prox1a"
+          ],
+          "relationship": "curated-family-member",
+          "orthologyNote": "ZFIN identifies prox1a as a human PROX1 ortholog. Other PROX-family members exist; only this direct ZFIN relationship is included in the curated panel.",
+          "orthologySources": [
+            {
+              "title": "ZFIN prox1a",
+              "url": "https://zfin.org/ZDB-GENE-980526-397",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Zebrafish gene-identity annotation; no paired transfer assay curated",
+          "functionalClass": "IDENTITY_ONLY",
+          "finding": "The prox1a gene is annotated as orthologous to human PROX1.",
+          "boundary": "No cited zebrafish experiment here establishes the same intercellular brake, PROX1 transfer, or a PROX1-blockade regeneration benefit.",
+          "functionSources": []
+        },
+        {
+          "species": "Axolotl",
+          "symbols": [],
+          "relationship": "not-curated",
+          "orthologyNote": "Not manually curated in this release. This is not a claim that the gene is absent.",
+          "orthologySources": [],
+          "context": "No species-specific functional record curated for this gene family.",
+          "functionalClass": "NOT_CURATED",
+          "finding": "No evidence record entered.",
+          "boundary": "Missing evidence in this atlas cannot establish absence of a gene, pathway, or regenerative capacity.",
+          "functionSources": []
+        }
+      ]
+    },
+    {
+      "id": "YAP1",
+      "humanSymbol": "YAP1",
+      "displayName": "Yes-associated transcriptional regulator",
+      "category": "Mechanical signaling / tissue context",
+      "tissueFocus": "Skin",
+      "question": "Why can YAP-related signaling influence reparative growth in one context and fibrosis in another?",
+      "safety": "YAP is highly context-dependent; gene conservation is not evidence that blocking it broadly is safe or therapeutic.",
+      "cells": [
+        {
+          "species": "Human",
+          "symbols": [
+            "YAP1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Human gene has annotated zebrafish ortholog yap1.",
+          "orthologySources": [
+            {
+              "title": "ZFIN yap1 orthology",
+              "url": "https://zfin.org/ZDB-GENE-030131-9710",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Human reference annotation; no human regeneration trial included",
+          "functionalClass": "IDENTITY_ONLY",
+          "finding": "The gene is conserved; no reliable clinical regeneration effect is established by the linked animal skin experiment.",
+          "boundary": "Mouse skin fibroblast findings cannot be presented as scarless healing demonstrated in people.",
+          "functionSources": []
+        },
+        {
+          "species": "Mouse",
+          "symbols": [
+            "Yap1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Mouse and human share the Yap1/YAP1 family; zebrafish yap1 links to human YAP1.",
+          "orthologySources": [
+            {
+              "title": "ZFIN yap1 orthology",
+              "url": "https://zfin.org/ZDB-GENE-030131-9710",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Mouse wound fibroblasts",
+          "functionalClass": "DIRECT_INJURY_EXPERIMENT",
+          "finding": "Blocking YAP-associated signaling reduced EN1 activation and promoted wound healing with regenerative features in mouse skin.",
+          "boundary": "This is specific to fibroblast identity and wound context; it does not justify indiscriminate YAP inhibition.",
+          "functionSources": [
+            {
+              "title": "Mascharak et al., Science (2021)",
+              "url": "https://doi.org/10.1126/science.aba2374",
+              "role": "Primary mouse experiment"
+            }
+          ]
+        },
+        {
+          "species": "Zebrafish",
+          "symbols": [
+            "yap1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "ZFIN explicitly identifies yap1 as orthologous to human YAP1.",
+          "orthologySources": [
+            {
+              "title": "ZFIN yap1",
+              "url": "https://zfin.org/ZDB-GENE-030131-9710",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Zebrafish gene annotation and developmental function",
+          "functionalClass": "FUNCTION_OTHER_CONTEXT",
+          "finding": "Yap1 has documented developmental functions in zebrafish; no directly matched adult skin-scarring experiment is entered here.",
+          "boundary": "Homology of a growth regulator does not mean zebrafish and mammals share the same wound outcomes.",
+          "functionSources": []
+        },
+        {
+          "species": "Axolotl",
+          "symbols": [],
+          "relationship": "not-curated",
+          "orthologyNote": "Not manually curated in this release. This is not a claim that the gene is absent.",
+          "orthologySources": [],
+          "context": "No species-specific functional record curated for this gene family.",
+          "functionalClass": "NOT_CURATED",
+          "finding": "No evidence record entered.",
+          "boundary": "Missing evidence in this atlas cannot establish absence of a gene, pathway, or regenerative capacity.",
+          "functionSources": []
+        }
+      ]
+    },
+    {
+      "id": "PRRX1",
+      "humanSymbol": "PRRX1",
+      "displayName": "Paired related homeobox 1",
+      "category": "Mesenchyme / blastema / fibrotic balance",
+      "tissueFocus": "Heart and limb",
+      "question": "Which features of PRRX1-dependent tissue remodeling and cell identity are conserved between fish, axolotl, and mammalian cells?",
+      "safety": "Blastema marker expression, fish heart regeneration, and human fetal cell-culture responses are distinct forms of evidence.",
+      "cells": [
+        {
+          "species": "Human",
+          "symbols": [
+            "PRRX1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "ZFIN recognizes human PRRX1 as the ortholog of prrx1a/prrx1b; axolotl nomenclature references the human gene.",
+          "orthologySources": [
+            {
+              "title": "ZFIN prrx1a",
+              "url": "https://zfin.org/ZDB-GENE-020905-5",
+              "role": "Orthology"
+            },
+            {
+              "title": "Axolotl naming guidelines",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8542645/",
+              "role": "Nomenclature"
+            }
+          ],
+          "context": "Human fetal epicardium-derived cell cultures (not patients)",
+          "functionalClass": "CULTURE_EXPERIMENT",
+          "finding": "A fish-heart regeneration study included human fetal epicardial-derived cell experiments implicating PRRX1 in NRG1 expression.",
+          "boundary": "In-vitro human fetal cell findings do not establish regeneration of injured adult human hearts.",
+          "functionSources": [
+            {
+              "title": "de Bakker et al., Development (2021)",
+              "url": "https://doi.org/10.1242/dev.198937",
+              "role": "Human fetal cell culture"
+            }
+          ]
+        },
+        {
+          "species": "Mouse",
+          "symbols": [
+            "Prrx1"
+          ],
+          "relationship": "one-to-one",
+          "orthologyNote": "Mammalian Prrx1/PRRX1 gene name and orthology consistent with accepted nomenclature.",
+          "orthologySources": [
+            {
+              "title": "Axolotl gene nomenclature paper",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8542645/",
+              "role": "Nomenclature"
+            }
+          ],
+          "context": "Mouse gene reference; no mouse repair-intervention experiment profiled",
+          "functionalClass": "IDENTITY_ONLY",
+          "finding": "Mouse Prrx1 is a known mammalian family member, but this R3 dataset includes no mouse wound-repair outcome tied to its perturbation.",
+          "boundary": "Do not infer mouse limb regrowth or scar-free healing from name conservation.",
+          "functionSources": []
+        },
+        {
+          "species": "Zebrafish",
+          "symbols": [
+            "prrx1a",
+            "prrx1b"
+          ],
+          "relationship": "one-to-many",
+          "orthologyNote": "ZFIN identifies two fish co-orthologs; the cited adult cardiac injury phenotype is specifically attributable to prrx1b.",
+          "orthologySources": [
+            {
+              "title": "ZFIN prrx1a",
+              "url": "https://zfin.org/ZDB-GENE-020905-5",
+              "role": "Orthology"
+            },
+            {
+              "title": "ZFIN prrx1b",
+              "url": "https://zfin.org/ZDB-GENE-030131-9033",
+              "role": "Orthology"
+            }
+          ],
+          "context": "Adult zebrafish heart after cryoinjury",
+          "functionalClass": "DIRECT_INJURY_EXPERIMENT",
+          "finding": "Loss of prrx1b worsened fibrosis and decreased cardiomyocyte proliferation; the study linked it with Nrg1-related signaling.",
+          "boundary": "The result cannot automatically be assigned to prrx1a or interpreted as an adult human heart therapy.",
+          "functionSources": [
+            {
+              "title": "de Bakker et al., Development (2021)",
+              "url": "https://doi.org/10.1242/dev.198937",
+              "role": "Primary fish experiment"
+            }
+          ]
+        },
+        {
+          "species": "Axolotl",
+          "symbols": [
+            "Prrx1"
+          ],
+          "relationship": "one-to-one-curated-name",
+          "orthologyNote": "Axolotl gene nomenclature committee uses Prrx1 as its exemplar symbol; homologous vertebrate family context documented.",
+          "orthologySources": [
+            {
+              "title": "Axolotl naming guidelines",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8542645/",
+              "role": "Nomenclature/orthology"
+            }
+          ],
+          "context": "Axolotl regenerating limb blastema and connective tissue",
+          "functionalClass": "TISSUE_OBSERVATION",
+          "finding": "Prrx1 expression and Prrx1-driven lineage tracing label connective tissue populations contributing to the limb blastema.",
+          "boundary": "Expression and lineage tracing do not by themselves demonstrate that deleting Prrx1 abolishes axolotl limb regeneration.",
+          "functionSources": [
+            {
+              "title": "Leigh et al., single-cell axolotl limb study",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6669047/",
+              "role": "Primary axolotl observation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

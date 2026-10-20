@@ -2,7 +2,7 @@
   "version": "R6.0",
   "module": "Neural Recovery Atlas",
   "updated": "2026-10-20",
-  "scope": "Selected primary studies; curated research map, not a systematic review or a clinical decision tool.",
+  "scope": "Selected primary studies; curated research map, not a systematic review or a clinical decision tool. Research only; not medical advice.",
   "states": [
     {
       "id": "functional",
@@ -184,7 +184,7 @@
       "falsifier": "Persistent loss of function despite survival and resolution of stress signals, or apparent recovery explained entirely by selection of surviving healthy cells.",
       "alternative": "Changes may represent transient inflammatory stress rather than stable neuronal senescence.",
       "evidenceNeeded": "Track the same identified neurons over time with viability, function and multi-marker measurements; independent replication.",
-      "boundary": "No study here demonstrates a human neuron-rejuvenation treatment."
+      "boundary": "Neither the cell-culture evidence nor the animal evidence demonstrates restoration of established senescence-associated dysfunction in a living human dopamine neuron."
     },
     {
       "id": "NR-Q02",
@@ -197,7 +197,7 @@
       "falsifier": "Stable binding deficits alongside independent evidence of terminal loss despite symptom changes.",
       "alternative": "Differences in medication exposure, group composition or other biological factors may influence PET signals.",
       "evidenceNeeded": "Replication in larger cohorts with medication controls, complementary imaging, and repeated measurements.",
-      "boundary": "PET alone cannot tell how many cells have died."
+      "boundary": "PET binding alone cannot establish how many cells have died, whether terminal loss has occurred, or whether an individual's abnormal signal could recover."
     },
     {
       "id": "NR-Q03",
@@ -211,7 +211,7 @@
       "falsifier": "Comparable signatures without demonstrable neuronal infection, or signatures explained by a shared nonspecific stress response.",
       "alternative": "Systemic immune, vascular, and treatment-related effects may contribute to symptoms independently of neuronal infection.",
       "evidenceNeeded": "Multiple human-relevant models, carefully controlled tissue comparisons and independent clinical corroboration.",
-      "boundary": "Culture susceptibility cannot establish prevalence of in-vivo neuronal infection."
+      "boundary": "Culture susceptibility cannot establish the prevalence of neuronal infection in living people or prove that direct infection explains long-COVID symptoms."
     },
     {
       "id": "NR-Q04",
@@ -226,7 +226,7 @@
       "falsifier": "No clinically important benefit in rigorous controlled studies, or unacceptable adverse effects despite favorable biomarkers.",
       "alternative": "The original lab effects may depend on viral strain, dosing context, model limitations or non-neuronal pathways.",
       "evidenceNeeded": "Independent mechanistic replication, safety characterization and appropriately designed human trials by qualified researchers.",
-      "boundary": "No medications, dosages, protocols or self-experiment instructions are provided."
+      "boundary": "None of these sources shows that a drug reverses long-COVID brain injury in humans; any experimental intervention would require independent clinical safety and efficacy evaluation."
     }
   ]
 }

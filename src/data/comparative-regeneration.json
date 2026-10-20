@@ -1,0 +1,385 @@
+{
+  "schemaVersion": "2.0.0",
+  "updated": "2026-10-19",
+  "purpose": "Context-specific comparative regeneration evidence. Missing cells mean not profiled, not absence. Different endpoints are never numeric rankings.",
+  "species": [
+    "Zebrafish",
+    "Axolotl",
+    "Mouse",
+    "Human"
+  ],
+  "tissues": [
+    "Retina",
+    "Heart",
+    "Spinal cord",
+    "Limb / digit"
+  ],
+  "cases": [
+    {
+      "id": "CR-001",
+      "species": "Zebrafish",
+      "tissue": "Retina",
+      "category": "endogenous",
+      "headline": "Adult retinal neuron regeneration",
+      "context": "Adult zebrafish following retinal injury",
+      "studyType": "Peer-reviewed review of animal experiments",
+      "repair": "Injured Müller glia can reprogram into proliferating progenitors, produce replacement retinal neurons, and support recovery of visual function in studied injury models.",
+      "boundary": "This does not establish that adult human retinas regenerate neurons spontaneously or that fish programs can simply be transplanted into human cells.",
+      "mechanisms": [
+        "Müller glia",
+        "Cell-state reprogramming",
+        "Neural progenitors"
+      ],
+      "sources": [
+        {
+          "title": "Lenkowski & Raymond, Progress in Retinal and Eye Research (2014)",
+          "doi": "10.1016/j.preteyeres.2013.12.007",
+          "url": "https://doi.org/10.1016/j.preteyeres.2013.12.007",
+          "kind": "Review"
+        }
+      ],
+      "functional": "Visual recovery reported in zebrafish injury models",
+      "developmentalStage": "Adult",
+      "origin": "Endogenous response",
+      "clinical": "Not a human intervention"
+    },
+    {
+      "id": "CR-002",
+      "species": "Mouse",
+      "tissue": "Retina",
+      "category": "induced",
+      "headline": "Reprogramming with an experimental intervention",
+      "context": "Adult mouse models of retinal degeneration",
+      "studyType": "Peer-reviewed primary animal study",
+      "repair": "Blocking extracellular PROX1 transfer encouraged some Müller glia to adopt a regenerative program and produce retinal neurons, with delayed vision loss in mice.",
+      "boundary": "Untreated adult mouse retina does not normally reproduce the robust zebrafish response. Mouse visual improvements do not prove human efficacy or permanent recovery.",
+      "mechanisms": [
+        "PROX1",
+        "Müller glia",
+        "Intercellular protein transfer"
+      ],
+      "sources": [
+        {
+          "title": "Lee et al., Nature Communications (2025)",
+          "doi": "10.1038/s41467-025-58290-8",
+          "url": "https://doi.org/10.1038/s41467-025-58290-8",
+          "kind": "Primary"
+        }
+      ],
+      "functional": "Improvement or delayed loss in experimental mouse visual assays",
+      "developmentalStage": "Adult",
+      "origin": "Experimentally induced",
+      "clinical": "Preclinical"
+    },
+    {
+      "id": "CR-003",
+      "species": "Human",
+      "tissue": "Retina",
+      "category": "not-established",
+      "headline": "Functional endogenous replacement unestablished",
+      "context": "Adult human retina; clinical and tissue evidence",
+      "studyType": "Peer-reviewed synthesis and donor-tissue observation",
+      "repair": "Human Müller glia have supportive functions and show injury responses, but spontaneous regeneration of functional retinal neurons sufficient to restore lost vision has not been demonstrated in living humans.",
+      "boundary": "Lack of demonstrated clinical regeneration is not proof that human retinal cells lack all latent plasticity. Human donor-tissue markers and preclinical interventions are not treatments.",
+      "mechanisms": [
+        "Müller glia",
+        "PROX1",
+        "Reactive gliosis"
+      ],
+      "sources": [
+        {
+          "title": "Huang et al., American Journal of Pathology (2026)",
+          "doi": "10.1016/j.ajpath.2026.06.006",
+          "url": "https://doi.org/10.1016/j.ajpath.2026.06.006",
+          "kind": "Review"
+        },
+        {
+          "title": "Lee et al., Nature Communications (2025)",
+          "doi": "10.1038/s41467-025-58290-8",
+          "url": "https://doi.org/10.1038/s41467-025-58290-8",
+          "kind": "Human donor-tissue observation"
+        }
+      ],
+      "functional": "No established patient-level regeneration of functional retinal neurons",
+      "developmentalStage": "Adult",
+      "origin": "No proven robust spontaneous neuron replacement",
+      "clinical": "No established regenerative therapy"
+    },
+    {
+      "id": "CR-004",
+      "species": "Zebrafish",
+      "tissue": "Heart",
+      "category": "endogenous",
+      "headline": "Cardiac muscle can regenerate after resection",
+      "context": "Adult zebrafish after partial ventricular resection",
+      "studyType": "Peer-reviewed primary animal lineage-tracing study",
+      "repair": "Preexisting differentiated cardiomyocytes partly dedifferentiate and proliferate to form regenerated myocardium after experimental injury.",
+      "boundary": "The study does not imply adult human hearts can rebuild an equivalent mass of muscle after a heart attack.",
+      "mechanisms": [
+        "Cardiomyocytes",
+        "Dedifferentiation",
+        "Cell proliferation"
+      ],
+      "sources": [
+        {
+          "title": "Jopling et al., Nature (2010)",
+          "doi": "10.1038/nature08899",
+          "url": "https://doi.org/10.1038/nature08899",
+          "kind": "Primary"
+        }
+      ],
+      "functional": "Tissue regeneration studied; do not equate with human cardiac recovery",
+      "developmentalStage": "Adult",
+      "origin": "Endogenous response",
+      "clinical": "Animal model"
+    },
+    {
+      "id": "CR-005",
+      "species": "Mouse",
+      "tissue": "Heart",
+      "category": "restricted",
+      "headline": "A short neonatal regeneration window",
+      "context": "Neonatal mice: 1 day versus 7 days after birth",
+      "studyType": "Peer-reviewed primary animal study; replication has depended on model and injury details",
+      "repair": "A 2011 mouse study reported substantial heart repair after partial resection at postnatal day one, with regenerative capacity diminished by day seven.",
+      "boundary": "This cannot be assigned to adult mice. Later studies have raised questions about variability, scarring, and experimental methods.",
+      "mechanisms": [
+        "Neonatal cardiomyocytes",
+        "Cell-cycle restriction",
+        "Postnatal maturation"
+      ],
+      "sources": [
+        {
+          "title": "Porrello et al., Science (2011)",
+          "doi": "10.1126/science.1200708",
+          "url": "https://doi.org/10.1126/science.1200708",
+          "kind": "Primary"
+        },
+        {
+          "title": "A systematic analysis of neonatal mouse heart regeneration, Journal of Molecular and Cellular Cardiology (2014)",
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0022282814004234",
+          "kind": "Follow-up analysis"
+        }
+      ],
+      "functional": "Repair reported in a specific neonatal injury model",
+      "developmentalStage": "Neonatal (not adult)",
+      "origin": "Age- and model-restricted",
+      "clinical": "Animal model"
+    },
+    {
+      "id": "CR-006",
+      "species": "Human",
+      "tissue": "Heart",
+      "category": "renewal",
+      "headline": "Slow cardiomyocyte turnover, not full heart regrowth",
+      "context": "Adult human hearts studied through radiocarbon birth dating",
+      "studyType": "Peer-reviewed human tissue isotope study",
+      "repair": "Human cardiomyocytes undergo measurable low-level renewal across adulthood; the published model estimated turnover that decreases with age.",
+      "boundary": "Background cell turnover must not be described as replacement of a large myocardial infarct or restoration of fully functioning heart muscle after major injury.",
+      "mechanisms": [
+        "Cardiomyocyte turnover",
+        "DNA radiocarbon dating",
+        "Age dependence"
+      ],
+      "sources": [
+        {
+          "title": "Bergmann et al., Science (2009)",
+          "doi": "10.1126/science.1164680",
+          "url": "https://doi.org/10.1126/science.1164680",
+          "kind": "Human tissue research"
+        }
+      ],
+      "functional": "Background turnover measured; not clinical myocardial regeneration",
+      "developmentalStage": "Adult",
+      "origin": "Low background renewal",
+      "clinical": "Observational human biology"
+    },
+    {
+      "id": "CR-007",
+      "species": "Axolotl",
+      "tissue": "Spinal cord",
+      "category": "endogenous",
+      "headline": "Neural stem cells expand during spinal cord regrowth",
+      "context": "Axolotl spinal cord injury models",
+      "studyType": "Peer-reviewed primary animal study",
+      "repair": "Axolotl neural stem cells expand in an organized way during regeneration of missing spinal cord regions, with planar cell polarity identified as a regulator.",
+      "boundary": "Cell expansion and tissue replacement in salamanders do not establish restored motor function in humans or a shared ready-to-use molecular therapy.",
+      "mechanisms": [
+        "Neural stem cells",
+        "Planar cell polarity",
+        "Progenitor expansion"
+      ],
+      "sources": [
+        {
+          "title": "Rodrigo Albors et al., eLife (2015)",
+          "doi": "10.7554/eLife.10230",
+          "url": "https://doi.org/10.7554/eLife.10230",
+          "kind": "Primary"
+        }
+      ],
+      "functional": "Anatomical spinal cord regeneration demonstrated; functional claims depend on specific assays",
+      "developmentalStage": "Regenerating axolotl model",
+      "origin": "Endogenous response",
+      "clinical": "Animal model"
+    },
+    {
+      "id": "CR-008",
+      "species": "Mouse",
+      "tissue": "Spinal cord",
+      "category": "limited",
+      "headline": "Adult central axons face strong regeneration limits",
+      "context": "Adult mouse and other mammalian spinal cord injury experiments",
+      "studyType": "Peer-reviewed mechanistic review of animal studies",
+      "repair": "Adult mammalian spinal cord neurons show limited spontaneous long-distance axon regeneration after severe injury; experimental strategies seek to improve growth and connections.",
+      "boundary": "This is not a claim that all spinal circuits lack plasticity. Neural sprouting, compensation, and function are different endpoints from replacing missing cord tissue.",
+      "mechanisms": [
+        "Growth-inhibitory environment",
+        "Axon regeneration",
+        "Neural plasticity"
+      ],
+      "sources": [
+        {
+          "title": "Muramatsu et al., International Journal of Molecular Sciences (2020)",
+          "doi": "",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7662268/",
+          "kind": "Review"
+        }
+      ],
+      "functional": "Limited spontaneous structural regeneration in adult injury models",
+      "developmentalStage": "Adult",
+      "origin": "Limited spontaneous regrowth",
+      "clinical": "Preclinical and synthesis"
+    },
+    {
+      "id": "CR-009",
+      "species": "Human",
+      "tissue": "Spinal cord",
+      "category": "limited",
+      "headline": "Clinical function can improve without full regrowth",
+      "context": "Adult human spinal cord injury",
+      "studyType": "NIH clinical information plus randomized human trial",
+      "repair": "Recovery can occur through spared connections, protection, rehabilitation, and plasticity. Reliable rebuilding of severed human spinal cord pathways is not established as a treatment.",
+      "boundary": "Do not equate functional gains with anatomically regenerated spinal cord tissue. A 2025 anti-Nogo-A trial did not meet its overall primary endpoint.",
+      "mechanisms": [
+        "Spared pathways",
+        "Plasticity",
+        "Nogo-A / RTN4"
+      ],
+      "sources": [
+        {
+          "title": "NINDS, Spinal Cord Injury (NIH)",
+          "doi": "",
+          "url": "https://www.ninds.nih.gov/health-information/disorders/spinal-cord-injury",
+          "kind": "Clinical overview"
+        },
+        {
+          "title": "Anti-Nogo-A NG101 cervical SCI phase 2b trial, Lancet Neurology (2025)",
+          "doi": "10.1016/S1474-4422(24)00447-2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39706632/",
+          "kind": "Randomized trial"
+        }
+      ],
+      "functional": "Some patient recovery occurs, not proof of regenerated severed pathways",
+      "developmentalStage": "Adult",
+      "origin": "Limited regeneration / variable functional recovery",
+      "clinical": "Clinical research"
+    },
+    {
+      "id": "CR-010",
+      "species": "Axolotl",
+      "tissue": "Limb / digit",
+      "category": "endogenous",
+      "headline": "Regrowth of complex multi-tissue limbs",
+      "context": "Adult axolotl after limb amputation",
+      "studyType": "Peer-reviewed primary single-cell study with prior lineage-tracing evidence",
+      "repair": "Cells assemble in a blastema and coordinate limb regrowth. Single-cell studies reveal multiple contributing populations, including fibroblast-like progenitors; regeneration does not require all cells to become pluripotent.",
+      "boundary": "A blastema is not one universal cell type, and salamander limb regeneration cannot be extrapolated to human limb regrowth.",
+      "mechanisms": [
+        "Blastema",
+        "Fibroblast-like progenitors",
+        "Positional information"
+      ],
+      "sources": [
+        {
+          "title": "Leigh et al., Nature Communications (2018)",
+          "doi": "10.1038/s41467-018-07604-0",
+          "url": "https://doi.org/10.1038/s41467-018-07604-0",
+          "kind": "Primary"
+        },
+        {
+          "title": "Kragl et al., Nature (2009): Tissue-origin memory during axolotl limb regeneration",
+          "doi": "10.1038/nature08152",
+          "url": "https://doi.org/10.1038/nature08152",
+          "kind": "Primary"
+        }
+      ],
+      "functional": "Complex anatomical tissue regrowth, not a human outcome",
+      "developmentalStage": "Adult",
+      "origin": "Endogenous response",
+      "clinical": "Animal model"
+    },
+    {
+      "id": "CR-011",
+      "species": "Mouse",
+      "tissue": "Limb / digit",
+      "category": "restricted",
+      "headline": "Distal digit tip regeneration depends on nail region",
+      "context": "Adult mouse distal digit-tip amputation",
+      "studyType": "Peer-reviewed primary animal study",
+      "repair": "Mouse distal digit tips can regenerate in a location-restricted manner; Wnt-responsive nail epithelial stem-cell signaling helps coordinate regrowth.",
+      "boundary": "Regeneration of the distal tip is not equivalent to regrowth of an entire finger, hand, or limb, and depends on tissue and injury location.",
+      "mechanisms": [
+        "Nail stem cells",
+        "Wnt signaling",
+        "Distal digit blastema"
+      ],
+      "sources": [
+        {
+          "title": "Takeo et al., Nature (2013)",
+          "doi": "10.1038/nature12214",
+          "url": "https://doi.org/10.1038/nature12214",
+          "kind": "Primary"
+        }
+      ],
+      "functional": "Anatomical regrowth within distal digit-tip model",
+      "developmentalStage": "Adult",
+      "origin": "Anatomically restricted",
+      "clinical": "Animal model"
+    },
+    {
+      "id": "CR-012",
+      "species": "Human",
+      "tissue": "Limb / digit",
+      "category": "restricted",
+      "headline": "Some distal fingertips can regrow",
+      "context": "Pediatric case series with selected distal fingertip injuries",
+      "studyType": "Peer-reviewed clinical case series (four patients)",
+      "repair": "A 1979 clinical report described restoration of fingertip contour and nail after selected distal injuries in four children. Outcomes depend on injury location and context.",
+      "boundary": "A small historical clinical series does not establish human limb regeneration or guarantee healing in other injuries. This atlas does not recommend specific wound-care procedures.",
+      "mechanisms": [
+        "Distal fingertip",
+        "Nail-associated tissue",
+        "Conditional wound repair"
+      ],
+      "sources": [
+        {
+          "title": "Bleicher et al., Pediatrics (1979)",
+          "doi": "10.1542/peds.64.1.1",
+          "url": "https://doi.org/10.1542/peds.64.1.1",
+          "kind": "Clinical case series"
+        },
+        {
+          "title": "Digit Tip Injuries: Current Treatment and Future Regenerative Paradigms (2019)",
+          "doi": "10.1155/2019/9619080",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30805012/",
+          "kind": "Review"
+        }
+      ],
+      "functional": "Favorable restoration documented in selected cases",
+      "developmentalStage": "Children in cited case series",
+      "origin": "Site- and injury-dependent",
+      "clinical": "Observed clinical cases; not a standard regeneration drug"
+    }
+  ]
+}

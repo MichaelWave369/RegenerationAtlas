@@ -1,4 +1,4 @@
-# Regeneration Atlas · R1.0
+# Regeneration Atlas · R2.0
 
 **Evidence before excitement.** An original, MIT-licensed, browser-based research atlas of proteins and pathways connected to tissue repair, cell-state reprogramming, and regeneration.
 
@@ -8,6 +8,15 @@
 - Peer-reviewed claims appear by default; opt in to preliminary preprints or cross-paper hypotheses.
 - Candidate combined PROX1/ASCL1 retinal strategy is prominently labeled **untested**, not a demonstrated biochemical edge.
 - Source relationships do not imply direct protein binding or safe clinical treatment.
+
+## R2: Comparative regeneration laboratory
+
+- An interactive cross-species matrix comparing 4 species across 4 tissue categories. **Twelve documented cases**, each with context, study model, mechanism, boundaries and primary literature / review links.
+- Click a cell to inspect one study summary and compare with a second independently selected case.
+- Species and tissue comparisons preserve **adult vs neonatal**, **induced vs spontaneous**, **clinical case vs animal model**, and **cell renewal vs complex regeneration** distinctions.
+- Empty cells mean **not profiled**, never absence of biological capacity. Zebrafish fins are not treated as homologous human limbs.
+- No regeneration ranking, species score, or unsupported cross-species transfer claim.
+- New tests validate all unique species–tissue cases, cited sources, age/injury conditions, and honest clinical limitations.
 
 ## Features
 

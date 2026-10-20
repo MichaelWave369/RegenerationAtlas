@@ -4,7 +4,6 @@ import './neural-recovery.css';
 
 type View = 'states' | 'studies' | 'questions';
 type Study = (typeof atlas.studies)[number];
-type Question = (typeof atlas.questions)[number];
 
 const saveJson = () => {
   const blob = new Blob([JSON.stringify(atlas, null, 2)], { type: 'application/json' });

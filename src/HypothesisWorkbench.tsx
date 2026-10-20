@@ -69,7 +69,7 @@ export default function HypothesisWorkbench({onOpenGap}:{onOpenGap:(id:string)=>
    (progressFilter==='All'||(notes[h.id]?.progress??'unreviewed')===progressFilter)&&
    (!q||[h.title,h.statement,h.tissue,h.gapId,...h.genes].join(' ').toLowerCase().includes(q));
  }),[term,tissue,progressFilter,notes]);
- const current:Hypothesis=bank.hypotheses.find(h=>h.id===selected)??bank.hypotheses[0];
+ const current:Hypothesis=filtered.find(h=>h.id===selected)??filtered[0]??bank.hypotheses[0];
  const work=notes[current.id]??fresh();
  const edited=Object.values(notes).filter(n=>n.progress!=='unreviewed'||n.observations||n.counterEvidence||n.nextReview).length;
  const change=(field:keyof Note,value:string)=>{
@@ -109,7 +109,7 @@ export default function HypothesisWorkbench({onOpenGap}:{onOpenGap:(id:string)=>
   <div className="hw-main">
    <aside className="hw-rail">
     <div className="hw-rail-head"><strong>Hypothesis library</strong><small>{filtered.length} / {bank.hypotheses.length}</small></div>
-    {filtered.map(h=><button type="button" className={'hw-entry'+(selected===h.id?' selected':'')} aria-pressed={selected===h.id} key={h.id} onClick={()=>{setSelected(h.id);setFeedback('');setConfirmClear(false);}}>
+    {filtered.map(h=><button type="button" className={'hw-entry'+(current.id===h.id?' selected':'')} aria-pressed={current.id===h.id} key={h.id} onClick={()=>{setSelected(h.id);setFeedback('');setConfirmClear(false);}}>
       <span>{h.id} · {h.tissue}</span><strong>{h.title}</strong><small>{progressOptions.find(p=>p.value===(notes[h.id]?.progress??'unreviewed'))?.label}</small>
      </button>)}
      {filtered.length===0&&<p className="hw-empty">No hypotheses match these filters.</p>}

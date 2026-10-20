@@ -1,0 +1,770 @@
+{
+  "schemaVersion": "4.0.0",
+  "curatedAt": "2026-10-19",
+  "scope": "Curated within Regeneration Atlas only. Not an exhaustive literature review; OPEN_IN_ATLAS is not a claim that science has never addressed this question.",
+  "stages": [
+    {
+      "key": "gene",
+      "title": "Gene / identity",
+      "description": "Gene or target identity and relevant relationships"
+    },
+    {
+      "key": "mechanism",
+      "title": "Tissue mechanism",
+      "description": "Relevant pathway or injury experiment"
+    },
+    {
+      "key": "functional",
+      "title": "Functional repair",
+      "description": "Anatomical integration and/or physiology measured"
+    },
+    {
+      "key": "human",
+      "title": "Human outcome",
+      "description": "Clinical study and its outcome, including negative results"
+    }
+  ],
+  "gaps": [
+    {
+      "id": "GAP-001",
+      "title": "Does the PROX1 transfer brake operate therapeutically in human retina?",
+      "tissue": "Retina",
+      "theme": "Translation",
+      "genes": [
+        "PROX1"
+      ],
+      "question": "Does blocking extracellular PROX1 transfer produce durable, safely integrated replacement retinal neurons in living human eyes?",
+      "whyOpen": "Mouse intervention results, human donor-tissue localization, and human clinical outcomes represent different levels of evidence.",
+      "caveat": "Do not treat human PROX1 localization as proof of repair or globally suppress an essential identity regulator.",
+      "studyDesign": "Seek independent confirmation in relevant human models, evidence of mature circuit integration, longitudinal functional outcomes, and targeted safety evaluations.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "documented",
+          "explanation": "PROX1 orthology and a human donor retinal observation are curated.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "PROX1",
+              "species": "Human"
+            },
+            {
+              "kind": "R0",
+              "id": "RA-002"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "documented",
+          "explanation": "Extracellular PROX1 transfer was investigated as an inhibitory mechanism in mouse retina.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-001"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-001"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Mouse experiments report neuronal regeneration and delayed vision decline, with durability limitations.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-002"
+            },
+            {
+              "kind": "R0",
+              "id": "RA-001"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "No demonstrated living-human therapy restoring functional retinal neurons is curated.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-002",
+      "title": "Which ASCL1 retinal injury program carries across species?",
+      "tissue": "Retina",
+      "theme": "Cross-species",
+      "genes": [
+        "ASCL1",
+        "ascl1a",
+        "ascl1b"
+      ],
+      "question": "Why does zebrafish ascl1a support injury-induced regeneration, while adult mouse Ascl1 reprogramming needs added interventions?",
+      "whyOpen": "Fish paralog identity, injury-stage signaling, and adult mammalian chromatin accessibility may each affect what experiments establish.",
+      "caveat": "The zebrafish ascl1a result cannot be assigned to ascl1b; a fish result is not a human intervention.",
+      "studyDesign": "Compare cell-state observations and functional outcomes in matched injury contexts; validate paralog-specific roles rather than assuming equivalence.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "documented",
+          "explanation": "Zebrafish ascl1a/ascl1b and mouse/human ASCL1 relationships are explicitly curated.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "ASCL1",
+              "species": "Zebrafish"
+            },
+            {
+              "kind": "R3",
+              "id": "ASCL1",
+              "species": "Mouse"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "documented",
+          "explanation": "Fish ascl1a perturbation and experimental adult mouse Ascl1 reprogramming are separately documented.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "ASCL1",
+              "species": "Zebrafish"
+            },
+            {
+              "kind": "R0",
+              "id": "RA-003"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-002"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Adult zebrafish regenerate retinal neurons; mouse intervention produces some neuron-like functional responses.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-001"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-002"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "A proven ASCL1-based restorative retinal therapy in living humans is not curated.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-003"
+            },
+            {
+              "kind": "R3",
+              "id": "ASCL1",
+              "species": "Human"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-003",
+      "title": "Does optic-nerve axon growth yield correctly connected human circuits?",
+      "tissue": "Optic nerve",
+      "theme": "Functional integration",
+      "genes": [
+        "PTEN",
+        "SOCS3"
+      ],
+      "question": "What evidence distinguishes axon outgrowth from stable, target-appropriate synapses and meaningful visual recovery?",
+      "whyOpen": "The cited mouse dual-deletion result measures sustained axon regrowth; the human clinical step is a different claim.",
+      "caveat": "PTEN is a tumor suppressor. This question does not endorse PTEN deletion or any unsupervised gene manipulation.",
+      "studyDesign": "Track independent anatomical, electrophysiological, behavioral, and safety endpoints in clearly identified experimental models.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "documented",
+          "explanation": "Mammalian PTEN orthology and zebrafish Pten co-orthologs are curated; SOCS3 is in the source-linked pathway map.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "PTEN",
+              "species": "Human"
+            },
+            {
+              "kind": "R3",
+              "id": "PTEN",
+              "species": "Zebrafish"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-007"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "documented",
+          "explanation": "Mouse pathway work reports separate PTEN/mTOR and SOCS3/STAT signaling constraints.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-004"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-006"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-007"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Sustained mouse axon regrowth is reported, but full circuit restoration is not established by that record.",
+          "refs": [
+            {
+              "kind": "R1",
+              "id": "INT-008"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-009"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "No safe and effective human PTEN/SOCS3 optic-nerve regeneration therapy is profiled.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-004"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-004",
+      "title": "Can adult human retinal preprint signals survive replication and integration tests?",
+      "tissue": "Retina",
+      "theme": "Replication",
+      "genes": [
+        "FGF2",
+        "GSK3A",
+        "GSK3B"
+      ],
+      "question": "Are the reported adult-donor retinal neural-lineage markers reproducible and associated with truly functional neuronal integration?",
+      "whyOpen": "A 2026 donor-tissue study is a preprint, which is an important distinction from peer-reviewed and in-vivo results.",
+      "caveat": "Proliferation or neuronal markers alone cannot establish restored vision; treat the preprint as provisional.",
+      "studyDesign": "Compare independent donor tissue studies, cell identities, electrophysiology, synaptic connectivity, and eventual peer-reviewed validation.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "partial",
+          "explanation": "FGF2 and GSK3 signaling interventions are named in a donor-tissue preprint; this atlas has no complete orthology panel for them.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-008"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "partial",
+          "explanation": "Preprint reports cultured human Müller glia responses under these experimental conditions.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-008"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-005"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "not-profiled",
+          "explanation": "A functional retinal circuit replacement outcome is not demonstrated in the cited human donor cultures.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-008"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "No living-human visual treatment result follows from an ex-vivo preprint.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-003"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-005",
+      "title": "Is PRRX1 involved in analogous repair roles across zebrafish hearts and axolotl limbs?",
+      "tissue": "Heart / limb",
+      "theme": "Cross-species",
+      "genes": [
+        "PRRX1",
+        "prrx1b",
+        "Prrx1"
+      ],
+      "question": "Which PRRX1 functions, if any, are shared across heart injury and limb-blastema biology?",
+      "whyOpen": "Zebrafish prrx1b loss-of-function affects heart regeneration; axolotl Prrx1 blastema studies include expression and lineage observations.",
+      "caveat": "Different tissues and experimental methods do not demonstrate an interchangeable or universal regeneration switch.",
+      "studyDesign": "Compare lineage-specific roles using compatible outcome definitions; require perturbation evidence before claiming an axolotl gene is necessary.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "documented",
+          "explanation": "PRRX1 orthology, zebrafish duplicated genes, and axolotl Prrx1 nomenclature are curated.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "PRRX1",
+              "species": "Zebrafish"
+            },
+            {
+              "kind": "R3",
+              "id": "PRRX1",
+              "species": "Axolotl"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "partial",
+          "explanation": "A fish heart perturbation exists, while axolotl blastema evidence here is observational rather than causal.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "PRRX1",
+              "species": "Zebrafish"
+            },
+            {
+              "kind": "R3",
+              "id": "PRRX1",
+              "species": "Axolotl"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Adult zebrafish heart regeneration and axolotl limb regrowth are independently reported at different tissue scales.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-004"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-010"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "Cultured human fetal cells do not establish regeneration of an injured adult human heart or limb.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "PRRX1",
+              "species": "Human"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-006",
+      "title": "What closes the neonatal mouse heart repair window?",
+      "tissue": "Heart",
+      "theme": "Developmental timing",
+      "genes": [
+        "Cardiomyocyte cell-cycle regulators"
+      ],
+      "question": "Which age-dependent constraints distinguish reported neonatal mouse cardiac repair from limited adult human heart-cell turnover?",
+      "whyOpen": "Neonatal mouse repair and adult human cardiomyocyte renewal are different observations, not different amounts of a single proven therapy.",
+      "caveat": "The neonatal mouse result varies with model and injury details, and should not be generalized to adult mice or humans.",
+      "studyDesign": "Separate age, injury method, proliferation, scar architecture, and restored cardiac function in cross-stage comparisons.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "not-profiled",
+          "explanation": "No causal gene-level developmental driver is assigned to this comparison by the current atlas.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-005"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-006"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "partial",
+          "explanation": "The neonatal mouse period and adult human turnover have been studied with distinct methods.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-005"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-006"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Neonatal mouse repair was reported under specific conditions; adult humans show low-level renewal rather than full regrowth.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-005"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-006"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "Rebuilding a large adult human myocardial injury is not established by either cited result.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-007",
+      "title": "When does skin YAP–EN1 signaling drive scarring versus repair?",
+      "tissue": "Skin",
+      "theme": "Tissue context",
+      "genes": [
+        "YAP1",
+        "EN1"
+      ],
+      "question": "Under which cell-specific contexts does interfering with the YAP–EN1 scarring program produce stable normal tissue repair?",
+      "whyOpen": "Mouse skin fibroblast experiments show promising structural outcomes, while YAP signaling performs different roles elsewhere.",
+      "caveat": "A skin fibroblast-specific mouse result does not justify systemic YAP inhibition or claim a scar-free human treatment.",
+      "studyDesign": "Seek independent replication, cell-subtype specificity, durability, appendage function, and safety evidence in appropriate models.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "documented",
+          "explanation": "Mouse and human YAP1-related orthology is curated.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "YAP1",
+              "species": "Mouse"
+            },
+            {
+              "kind": "R3",
+              "id": "YAP1",
+              "species": "Human"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "documented",
+          "explanation": "A published mouse study links mechanotransduction to EN1-associated fibroblast scarring.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-006"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-010"
+            },
+            {
+              "kind": "R1",
+              "id": "INT-011"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Wounds displayed regenerative features in mice; no general human endpoint is inferred.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-006"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "The current atlas has no proven human scar-free YAP-targeting therapy.",
+          "refs": [
+            {
+              "kind": "R3",
+              "id": "YAP1",
+              "species": "Human"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-008",
+      "title": "What can we learn from anti-Nogo-A's nonsignificant clinical primary outcome?",
+      "tissue": "Spinal cord",
+      "theme": "Negative clinical evidence",
+      "genes": [
+        "RTN4",
+        "Nogo-A"
+      ],
+      "question": "Which endpoints and injury subgroups can be studied prospectively without treating exploratory signals as confirmed benefits?",
+      "whyOpen": "The phase 2b primary endpoint was not met in the overall population; that is a result, not a missing experiment.",
+      "caveat": "Do not reframe a negative overall trial as success on the strength of subgroup exploration.",
+      "studyDesign": "Separate prespecified clinical endpoints, exploratory subgroup findings, patient heterogeneity, and anatomical measures in future research reviews.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "partial",
+          "explanation": "The clinical antibody targets Nogo-A/RTN4, but this release has no R3 orthology panel for it.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-005"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "partial",
+          "explanation": "Nogo-A is a growth-inhibitory target, but a clinical mechanism is not established by an overall negative endpoint.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-005"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "documented",
+          "explanation": "The randomized trial reported no statistically significant overall primary motor-function benefit.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-005"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-009"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "documented",
+          "explanation": "A human trial exists; its overall primary endpoint was not met. Documented does NOT mean successful.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-005"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-009",
+      "title": "How do injury location and age govern mammalian fingertip regrowth?",
+      "tissue": "Limb / digit",
+      "theme": "Anatomy and timing",
+      "genes": [
+        "Wnt signaling",
+        "Nail-associated stem cells"
+      ],
+      "question": "Which tissue boundaries separate distal digit repair from full limb regeneration in mammals?",
+      "whyOpen": "Adult mouse distal digit studies and selected childhood human fingertip case reports are not equivalent to whole-limb regrowth.",
+      "caveat": "Do not infer wound treatment instructions or predictable clinical outcomes from a small historical human case series.",
+      "studyDesign": "Compare injury anatomy, age, nail-associated tissues, skeletal restoration, and long-term function in independently documented cases.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "partial",
+          "explanation": "Mouse distal digit evidence includes nail-associated Wnt signaling, not a complete conserved pathway map.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-011"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "partial",
+          "explanation": "Distal mouse nail-region signaling is implicated; the human case series does not establish the same pathway.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-011"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-012"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Mouse digit-tip anatomical regrowth and selected pediatric fingertip outcomes are reported in different settings.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-011"
+            },
+            {
+              "kind": "R2",
+              "id": "CR-012"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "partial",
+          "explanation": "A small human case series exists; full human limb regeneration is not established.",
+          "refs": [
+            {
+              "kind": "R2",
+              "id": "CR-012"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "GAP-010",
+      "title": "Does myostatin-associated hypertrophy improve actual repair?",
+      "tissue": "Skeletal muscle",
+      "theme": "Function versus growth",
+      "genes": [
+        "MSTN"
+      ],
+      "question": "How can increased muscle mass be distinguished from stronger function and regeneration of injured human muscle?",
+      "whyOpen": "Human loss-of-function genetics establishes a muscle growth effect, not a regenerative treatment benefit.",
+      "caveat": "The genetics must not be misrepresented as an intervention, nor muscle size as repaired muscle quality.",
+      "studyDesign": "Review separately quantified strength, motor function, repair after injury, and adverse outcomes; distinguish genetic cases from trials.",
+      "status": "OPEN_IN_ATLAS",
+      "checkpoints": [
+        {
+          "key": "gene",
+          "status": "documented",
+          "explanation": "A human MSTN loss-of-function variant is documented in the foundational ledger.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-007"
+            }
+          ]
+        },
+        {
+          "key": "mechanism",
+          "status": "documented",
+          "explanation": "The R1 network records myostatin as a muscle-growth restraint.",
+          "refs": [
+            {
+              "kind": "R1",
+              "id": "INT-012"
+            },
+            {
+              "kind": "R0",
+              "id": "RA-007"
+            }
+          ]
+        },
+        {
+          "key": "functional",
+          "status": "partial",
+          "explanation": "Pronounced muscle size was observed, but improved post-injury repair was not demonstrated by that report.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-007"
+            }
+          ]
+        },
+        {
+          "key": "human",
+          "status": "not-profiled",
+          "explanation": "No proven muscle-regeneration treatment is established in the selected human genetics evidence.",
+          "refs": [
+            {
+              "kind": "R0",
+              "id": "RA-007"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

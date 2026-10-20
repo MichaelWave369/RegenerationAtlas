@@ -1,4 +1,4 @@
-# Regeneration Atlas · R3.0
+# Regeneration Atlas · R4.0
 
 **Evidence before excitement.** An original, MIT-licensed, browser-based research atlas of proteins and pathways connected to tissue repair, cell-state reprogramming, and regeneration.
 
@@ -30,6 +30,18 @@ A curated, source-linked **5-gene × 4-species** evidence view for ASCL1, PTEN, 
 - Adds six automated validation tests alongside the existing evidence and interaction tests.
 
 No genome-wide alignment, percentage-sequence-identity calculation, pharmacological prescription or clinical claims. Manuscript and orthology sources remain linked and bounded.
+
+## R4: Evidence Gap Explorer
+
+- Ten literature-curated **open-in-this-atlas** questions drawn from source records in R0 through R3. These are **not** claims of global novelty or the absence of external published literature.
+- Four independent checkpoints per question: gene identity, tissue mechanism, functional repair, and human outcome. Labels distinguish `documented`, `partial` and `not-profiled`.
+- Negative trials are retained as `documented` outcomes. **Documented does not mean positive or clinically successful.**
+- Search by tissue, gene or research question; filter by gap theme or questions where the human outcome remains unprofiled.
+- Select a question for its traceable R0/R1/R2/R3 source graph, explicit known/unknown boundary, and non-procedural evidence-needs summary.
+- Download the full JSON registry or a selected Markdown research brief, including unique linked bibliography.
+- Eight additional automated integrity tests catch orphan references, exaggerated clinical claims, unsupported treatments and unsupported implied gene-function transfers.
+
+Curated scientific communication only. Not a systematic review, gene editing protocol, clinical research advice, or automated hypothesis validation.
 
 ## Features
 

@@ -1,4 +1,4 @@
-# Regeneration Atlas · R5.0
+# Regeneration Atlas · R6.0
 
 **Evidence before excitement.** An original, MIT-licensed, browser-based research atlas of proteins and pathways connected to tissue repair, cell-state reprogramming, and regeneration.
 
@@ -54,6 +54,20 @@ Curated scientific communication only. Not a systematic review, gene editing pro
 - Eight new integrity tests protect the R4 links, falsifiability, the NG101 negative human clinical trial, and preprint limitations.
 
 R5 is a curated hypothesis organization interface. It is not a novelty search, validated scientific model, experimental protocol or medical advice.
+
+## R6: Neural Recovery Atlas
+
+A source-linked, accessible **neural recovery research map** accessible through the **Neural recovery** tab. Unlike a predictive simulator or a clinical staging tool, this addition separates biological interpretations that the evidence cannot yet distinguish.
+
+- Explore four **conceptual** categories: functioning, functionally impaired, senescence-associated, and structurally lost. These are **not sequential stages**, and a marker cannot by itself establish survival, death or recovery.
+- Examine a compact field guide to VMAT2/SLC18A2, SNCA/alpha-synuclein, the senescence-associated secretory phenotype, and p16/CDKN2A. Each marker links to curated primary research and an explicit interpretation boundary.
+- Read three source-linked studies: Yang et al. (2024, human stem-cell-derived dopamine neurons and postmortem tissue), Xu et al. (2023, organoids, human tissue and mouse experiments), and Liu et al. (2026, small human long-COVID PET case-control study).
+- **Corrigendum preserved:** the September 2026 correction to the Liu VMAT2 study is linked and clearly labeled, alongside the disclosed potential conflicts of interest.
+- Four explicitly **UNTESTED_HYPOTHESIS** questions, each with predictions, falsifiers, alternatives, evidence requirements and linked source IDs.
+- Search/filter evidence by setting; inspect observed/not-shown, safety and provenance; export the R6 source JSON locally. No accounts or backend.
+- Automated R6 integrity tests validate citations, data links, model boundaries, and correction visibility.
+
+**Key distinction:** lower VMAT2 PET binding is not a measured neuron-death rate. Lab drug-screen hits and senolytic animal experiments are not approved treatments for brain symptoms of COVID. The atlas does not claim COVID causes Parkinson's disease.
 
 ## Features
 

@@ -36,3 +36,21 @@ Edges require: `sourceRecordId`, `fromGene`, `toGene`, `tissue`, `speciesOrModel
 - [ ] Data tests passing
 
 **Not medical advice.** This is a research communication tool, not a medical device or therapy.
+
+
+## Interaction map (R1)
+
+`src/data/interactions.json` has node and directed-edge records. The map is an editorial navigation aid and **not** a comprehensive interactome or mechanistic simulation. Every edge requires:
+
+- `from` and `to` node identifiers that exist; all must belong to the edge tissue lane.
+- An `id`, relationship label, model, supporting ledger record IDs, observation and caveat.
+- One provenance class: `SOURCE_REPORTED`, `PREPRINT_REPORTED`, or `HYPOTHESIS`.
+- Explicit distinction between *regulatory pathway relationships* and *physical protein binding*.
+
+An arrow does not imply direct molecular contact or clinical success. When a source establishes a human loss-of-function association rather than a controlled trial, say so explicitly.
+
+**Combination rule:** Comparisons across independent experiments may motivate hypotheses but must never be presented as a tested combination, synergistic effect, or demonstrated pairwise protein interaction. For this reason, the PROX1 + ASCL1 combination is represented as a separate **untested strategy node**, with distinct hypothesis links.
+
+Default view shows only peer-reviewed source-reported relations. Preprints and hypotheses require conscious opt-in. Negative clinical results continue to live in the evidence ledger even if they have no supported mechanistic edge.
+
+Run `npm test` before submitting an interaction edit; IDs and research-record references are validated automatically.
